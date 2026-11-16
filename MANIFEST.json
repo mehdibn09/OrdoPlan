@@ -1,0 +1,1737 @@
+[
+  {
+    "path": "OrdoPlan/.dockerignore",
+    "bytes": 109,
+    "sha256": "53afe138e5f8f49666fe11fe8a4e7e4f84d15b08591e5b9c60181055b46e171b"
+  },
+  {
+    "path": "OrdoPlan/.env.example",
+    "bytes": 760,
+    "sha256": "8b2f402df722a21b1e0b75bd47e7b0360813621ae1e5ef261818c1a3745bfa17"
+  },
+  {
+    "path": "OrdoPlan/.github/workflows/ci.yml",
+    "bytes": 820,
+    "sha256": "831bc4a661b037f7e3091ba83c9742239d7d920e3050720ecac8507fe1b9ff41"
+  },
+  {
+    "path": "OrdoPlan/.gitignore",
+    "bytes": 180,
+    "sha256": "bff928adc7798b3506130fca996fb815dc3ce294305d1e82edb7fbeec49e4db3"
+  },
+  {
+    "path": "OrdoPlan/Dockerfile",
+    "bytes": 891,
+    "sha256": "ac56522cf857583aa11654b7bd874198e64abde89a06bd0033ea16ef62f1e99a"
+  },
+  {
+    "path": "OrdoPlan/Dockerfile.neural",
+    "bytes": 122,
+    "sha256": "f73da784c443bca1abc31d422146547bd83a72c4c9995b3be68963bbd4523870"
+  },
+  {
+    "path": "OrdoPlan/LICENSE",
+    "bytes": 64,
+    "sha256": "40e60697600535eabfb5ae05f72829d88cfe8d02dd4792f5a754f6f51dabe55b"
+  },
+  {
+    "path": "OrdoPlan/LIRE_MOI_EN_PREMIER.md",
+    "bytes": 3253,
+    "sha256": "76c387c4e45463be78d11d6ad1805a498898a546e163cdf7a380f71fe3d79f0b"
+  },
+  {
+    "path": "OrdoPlan/NOTICE.md",
+    "bytes": 1128,
+    "sha256": "f917cddeb5ff0d8b90e17ede159c6320fda2f5ebdb2a853b18a44c72cb770aaa"
+  },
+  {
+    "path": "OrdoPlan/README.md",
+    "bytes": 6285,
+    "sha256": "d54d2d1ae592a638a361a5dc411cd7e9d74c1746df44021f38d91dadc6b80fdd"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_1.md",
+    "bytes": 411,
+    "sha256": "212ef712dd488743f68fecde007d5d7075550b52ce76ecce6c2f54463d1f99ee"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_2.md",
+    "bytes": 378,
+    "sha256": "ac1a124953f9a2a77c47db9ce38ec47e520d75bd9227afa7f42b76f583f25543"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_3.md",
+    "bytes": 390,
+    "sha256": "1c219e0e74bad541e3cc8d40dad75e6a14e94d1ee8870c9b0bfe4469fcf2d3d3"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_4.md",
+    "bytes": 389,
+    "sha256": "c1cd8c9394db59ff0b2b87785886a2d450740affddf186d1af8990ae392cba62"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_5.md",
+    "bytes": 395,
+    "sha256": "8c7d89f5e7edfe92258943b839e2d514f6b28b6791bf2af18fb824582a7e499a"
+  },
+  {
+    "path": "OrdoPlan/compte_rendu_semaine_6.md",
+    "bytes": 385,
+    "sha256": "651bb1335726fe9127f633fbcb3b00fca431a4b1083fd50837c7ff19b3a61bbe"
+  },
+  {
+    "path": "OrdoPlan/config/llm_config.yaml",
+    "bytes": 355,
+    "sha256": "d2803718914c599188a094ea7eaabbc62919ac7c9b8637268579bd8043ee9efc"
+  },
+  {
+    "path": "OrdoPlan/configs/config.yaml",
+    "bytes": 441,
+    "sha256": "1ebcfaeb5601a0310f35724dd24b21a9be5ef177cea7d479a8889623f3da2beb"
+  },
+  {
+    "path": "OrdoPlan/configs/prompts/evidence_check_v1.yaml",
+    "bytes": 540,
+    "sha256": "ef43679180838f4b26bedac8152e3cf279116cf3b70f989b8394b1615774e0f8"
+  },
+  {
+    "path": "OrdoPlan/configs/prompts/explain_schedule_v1.yaml",
+    "bytes": 590,
+    "sha256": "80405fc4e388577e7470d67366757fb8e20b396a2875c497b42d537c4f76456a"
+  },
+  {
+    "path": "OrdoPlan/configs/prompts/extract_work_order_v1.yaml",
+    "bytes": 523,
+    "sha256": "369e918abe2a14e7aa8ad49d9e2a4e1701404a4b453e61a14e8cb598c9e28fbf"
+  },
+  {
+    "path": "OrdoPlan/configs/prompts/publication_draft_v1.yaml",
+    "bytes": 468,
+    "sha256": "313fbf8d3ecba939a1616e6e8ef2750caeb018a4a1d2df7d41f4355000e4b650"
+  },
+  {
+    "path": "OrdoPlan/configs/prompts/read_machine_display_v1.yaml",
+    "bytes": 436,
+    "sha256": "4a4fe6d079cf7ae221a9f559a156c1bd0e9ce78400b2573bb3c61329a10d01bc"
+  },
+  {
+    "path": "OrdoPlan/data/VERSION.json",
+    "bytes": 171,
+    "sha256": "147e5d420faf3ab1f6fa12412cc3b8ed39dac7605bfbe9e6283d81e988b12e4e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_a.pdf",
+    "bytes": 2604,
+    "sha256": "bf50fe8d2be307a4ebfe2443b6851e30ec4d32dbe80a1fe07c43ed6789903827"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_a_p1.png",
+    "bytes": 29901,
+    "sha256": "26b7ba746c3a6929fc8a9f2c7c05346a308f94d29d803fb28c2a286d929b99dc"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_a_p2.png",
+    "bytes": 36417,
+    "sha256": "e1b04bf17c127674e1ff219aff461a40e9285a3733a3996e78d641853372749c"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_b.pdf",
+    "bytes": 2604,
+    "sha256": "232b8f4a02751bf9d53340f77544c9d095059c453adb5654707c412c0ca3c5ab"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_b_p1.png",
+    "bytes": 30354,
+    "sha256": "49e75599554c22b3212d6e3ca1504bc7b97438d570dfd5dde6cf718aed981954"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_cnc_b_p2.png",
+    "bytes": 36518,
+    "sha256": "7fc25ecc6008831c234e25ec36589b583c0f6586bcafda12ca9f3ccae3de95cc"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_c.pdf",
+    "bytes": 2607,
+    "sha256": "53ee303c9291f36a107faf2b75ec02f409fa5dceec91cfc65216a206269922e9"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_c_p1.png",
+    "bytes": 31441,
+    "sha256": "ddcd732c5d605227770070514c5312e901c9e76029f85bf05b28fca82c75881b"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_c_p2.png",
+    "bytes": 38148,
+    "sha256": "dbd0dd6012553a98790f3dd91c9c9b75c53bd2ddce6b43cd44329a5db7edd876"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_d.pdf",
+    "bytes": 2607,
+    "sha256": "ac4611e6ef78cfba0fcb3256eb4fdca4983d1b576da429d2c11c2b823601a005"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_d_p1.png",
+    "bytes": 31323,
+    "sha256": "bed8d743658cd77113b2552de78ab1468f0d1b0d5565b2726c022fcaedc28624"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/alarme_tour_d_p2.png",
+    "bytes": 37710,
+    "sha256": "1ad50ccec6e83eb000a40079f2119f98999b37a3d87549f9ddd78c391a8f9e17"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/chunks.json",
+    "bytes": 61168,
+    "sha256": "fded8b803bb4193a967520f46ce6051d98072de09600d3d704f23e7d344d7825"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_0.pdf",
+    "bytes": 2570,
+    "sha256": "05519b64fce27ccf69da8afc276b3fec95c41c5a386fd8b4d187445d2de04136"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_0_p1.png",
+    "bytes": 30816,
+    "sha256": "5a2fe9370ab88e00eb6393cc953861e5bc33bcb4fb4e886dfa3802da6ebf3607"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_0_p2.png",
+    "bytes": 38394,
+    "sha256": "da751c557bc1b43a8266c4633dfc416755765c798ce6ad3771ccfc6a0fc72268"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_1.pdf",
+    "bytes": 2572,
+    "sha256": "24f696421703c58bfdd652aadfcbad8396a4d27a730eebe03f654ffff99f1fd9"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_1_p1.png",
+    "bytes": 29906,
+    "sha256": "474af604b9254bd1046db867c7dc5338a1afe5d7cfe629dcd8fc0dcd6fd9a45f"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_1_p2.png",
+    "bytes": 37414,
+    "sha256": "4aa02ac5a7f30fc011622c87cfa640fc8be6d77e08366a85c44b42c7516f4d68"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_2.pdf",
+    "bytes": 2571,
+    "sha256": "111232b5319214ea059e8a32536fd30f9fa0dcae1604b89384e39fbeafe8e413"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_2_p1.png",
+    "bytes": 29575,
+    "sha256": "c6637b86c062410e6f2c844dd02acf1ea8157d89e0f91ab7fc24d9bf2daae7cf"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_2_p2.png",
+    "bytes": 37335,
+    "sha256": "be483b8a4054aba3081307ef0a727655f286f08d9f609d137301b91b0ae1a277"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_3.pdf",
+    "bytes": 2572,
+    "sha256": "b0f038dac1653dc66eb0ae246ac738a4b689022dcee61d2ee2e0662e35f5e701"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_3_p1.png",
+    "bytes": 31045,
+    "sha256": "a956e9429e6e2464172ad0e03c4d89fc85589d5fd363dd49b3fac11ae8e28240"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/confidentiel_atelier2_3_p2.png",
+    "bytes": 38593,
+    "sha256": "22ce2987d2a6a90f31344bfa06a937d22ae4c0e359e114732fd7a8616cc45829"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/erp_orders.pdf",
+    "bytes": 2694,
+    "sha256": "274c3935f49efdf903aae0b2daec7fce469eb28c98dccbd91f1a13b4562d79c3"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/erp_orders_p1.png",
+    "bytes": 100815,
+    "sha256": "3c89d2ba2a91d36df043a3dbfec7ccd744dcaf6eaf85137df6bd9c3b63a13757"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/erp_orders_p2.png",
+    "bytes": 33257,
+    "sha256": "7dd37f87b230e732b33db54f28d68efc15b9315308bf21ca43242849f1ed4040"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_a.pdf",
+    "bytes": 2618,
+    "sha256": "d5949259a90922b75fb86d4d406555db6301ebbc96d198a0dcf324a452407531"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_a_p1.png",
+    "bytes": 35652,
+    "sha256": "90eea16f90cd3c9f47c8507ae7953bc76ba6b8e24fbde861c496ce380bab1370"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_a_p2.png",
+    "bytes": 32396,
+    "sha256": "5f01091b0d3951d599764a335a9757044499856460264e81d08d69e52ad5da67"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_b.pdf",
+    "bytes": 2619,
+    "sha256": "56e1aab05030205baa5893ab5b3de524b1451e0f44382246093a579e313d8167"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_b_p1.png",
+    "bytes": 35561,
+    "sha256": "a21c0f67ea41452a32f2dc528b4dc1be7b5e95516f0b1034384a0a5a502cd910"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_cnc_b_p2.png",
+    "bytes": 32376,
+    "sha256": "28c520f54b3c54539e7fd1780277480c99043afa6d2254de31dae9d7941b3969"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_c.pdf",
+    "bytes": 2625,
+    "sha256": "369430fb46f2ea2385074290fa282bb262680e2088daaa9595e85a8e143feb8b"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_c_p1.png",
+    "bytes": 36667,
+    "sha256": "eb04a2059b985f8762ec87bd12288b2cdd7926a2dda847965fa347c5b304d122"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_c_p2.png",
+    "bytes": 33843,
+    "sha256": "3af2e0a10de71f3748441efa067f77d95c5e2204a8a4b4b09722836228c1a6a6"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_d.pdf",
+    "bytes": 2626,
+    "sha256": "9dd17ba2b0de83d62a55472399ef8852ff04c1e4a9d2d3c4f281cb989670be9f"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_d_p1.png",
+    "bytes": 36915,
+    "sha256": "ac2332236cb85d1224181a83c4de0d7e15849494a742faddad63b1fdddeb0122"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/fiche_tour_d_p2.png",
+    "bytes": 34212,
+    "sha256": "c3bec584c16d69f532e019f235732bd3eb63d9e76ecc92969969d42712c412fa"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_101.pdf",
+    "bytes": 2670,
+    "sha256": "e11897a0ab1b15d45c3bd2db6eaff1f39fa5454fd3061b1670620871be8d2313"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_101_p1.png",
+    "bytes": 42443,
+    "sha256": "b6e81ba34de7cbee4314ad11d8c5bbc9cbeee898f49854852edd3e524c987291"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_101_p2.png",
+    "bytes": 36043,
+    "sha256": "8c5378b3dd48bbf80eefb439d422503ad3b5bc8cb65ed6e50e92297b8f589fff"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_102.pdf",
+    "bytes": 2671,
+    "sha256": "807c89213fdf99971bbb5f4aef394e07a99aae483a8e6c0399a16cd004a34a0e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_102_p1.png",
+    "bytes": 44466,
+    "sha256": "105f5594b0836c92102374016744aba30428a93d83c60b6088bb190df667788e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_102_p2.png",
+    "bytes": 37500,
+    "sha256": "8423bb9b6a0577018c13b9c5684cbd05d774526aabf801765e0420e0b99fc8e7"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_103.pdf",
+    "bytes": 2666,
+    "sha256": "4d6395f91f0df50fb142946c6bee1461e9638ad5f1b1adba4ea611cb37f83553"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_103_p1.png",
+    "bytes": 41912,
+    "sha256": "2d55b2db5497243f310b640237bb053bb0aaa70588f61b71585d7168a1e3d7fd"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_103_p2.png",
+    "bytes": 37067,
+    "sha256": "43e79ab29bc9c80afb7aee8d0ab15b348620b0922f3733c4f6f8dbc74810e670"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_104.pdf",
+    "bytes": 2671,
+    "sha256": "a25c6e9abe97d29bbe2140b7cb78ede6cff3d00165ac5bb50f93ada5b7c70447"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_104_p1.png",
+    "bytes": 44150,
+    "sha256": "88448cfbfbfecaf42ae5aa588d6787d813132407b1dbe25b2c26f3365fa34c33"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_104_p2.png",
+    "bytes": 37543,
+    "sha256": "0bc62a18cc1afef0b19f8e59b8d656b5d9aee8bbb587a60e6416de3d36d22fbc"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_105.pdf",
+    "bytes": 2674,
+    "sha256": "e7a4fa54e508de224e1b78c053b5acf09860e6caa52e29880ee68e930c9a3249"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_105_p1.png",
+    "bytes": 42778,
+    "sha256": "f404f9d4d741aebc06509eb6f53ebf5612cfaa87e3f9bb101d0eddbec1e3eea2"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_105_p2.png",
+    "bytes": 36756,
+    "sha256": "ac82b343d7db19744d7564f27ccf297be0b7b59f01e0c65dbff8c7bb559402da"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_106.pdf",
+    "bytes": 2670,
+    "sha256": "a168035c1b710c89a95f377a78842184b278c390bd444a6abeaccd273fda40af"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_106_p1.png",
+    "bytes": 44383,
+    "sha256": "a4946f8e324d4d7517d43c8f141721378846c38cf1be3c8613a26389b4006597"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_106_p2.png",
+    "bytes": 38119,
+    "sha256": "175b439a66e235934ed3527ccd843710a8cf698f9c635c37beac291e3f5a3a65"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_107.pdf",
+    "bytes": 2671,
+    "sha256": "dc35fca438adfc6532f59fddbbd71fcb4eb0f04889c73e8843869ad8ea35243d"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_107_p1.png",
+    "bytes": 42770,
+    "sha256": "c0384f190db8581621820aeb4d97e5eeb4f322a1626f759092306d8cac02bac2"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_107_p2.png",
+    "bytes": 36585,
+    "sha256": "666dddb5b04e056d7e7ab4b5d1226c4fa3f9574ee3479f8bd319db2b428d2b48"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_108.pdf",
+    "bytes": 2679,
+    "sha256": "cfe4cec5e7ea8222df0ed060dfbedc7bb4738b02c6138884cd32fbd4429deb0c"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_108_p1.png",
+    "bytes": 43734,
+    "sha256": "6c596fc2b8a104f70e5f9013162cd1dc789eb156a7dae6a494095c1fc4118fdb"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_108_p2.png",
+    "bytes": 38292,
+    "sha256": "1589eed19fda059158b41774576e6da4a7a3f805962cdc79661ea3bf02c3dc74"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_109.pdf",
+    "bytes": 2611,
+    "sha256": "d36d0cba196f9ea3ec12e73eca77c73b0411d07a249083e81dcccae3e5fa8380"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_109_p1.png",
+    "bytes": 40526,
+    "sha256": "8fa9203faf41dad611516ea76e2f98fe290c03a7ede7f6c7e9efd14cfb6ab229"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gamme_109_p2.png",
+    "bytes": 35261,
+    "sha256": "183a0df98c8daed06df08c0a494861b3277db634657374dbd2ecded0a3645675"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_a.pdf",
+    "bytes": 2609,
+    "sha256": "a2d454e44c14005277c9e62c4d3390f20697fa9d34db1b0a9d4ac1bae478a69c"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_a_p1.png",
+    "bytes": 30526,
+    "sha256": "7fa3790e17cc17660206898ffb48a9e932a0f891eb23679a92f15690479a3251"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_a_p2.png",
+    "bytes": 36410,
+    "sha256": "9ed025318c2e7dd4835f5d7fe4afe73b5787d7dc740b06cdfe51101380aa9eab"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_b.pdf",
+    "bytes": 2609,
+    "sha256": "cab695127da7f53be8f0ba5f7b319fcc48e9dbf08c372e46f4c984c1c08a9b49"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_b_p1.png",
+    "bytes": 30411,
+    "sha256": "00d057f435ae1a079cd3cd0f4df53e373a28cdde76379c4a7b00fc338be4d95a"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_cnc_b_p2.png",
+    "bytes": 36042,
+    "sha256": "370c6d8667a5a1a3154618d0beb89d847bdd856a63106ee9db73ad20ae593f41"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_tour_c.pdf",
+    "bytes": 2615,
+    "sha256": "c285622199f0008de089928e2a8206be41942ad920b36e1ede8e8862b72211a1"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_tour_c_p1.png",
+    "bytes": 31585,
+    "sha256": "ad6611fd06478bab70a4614066ff444fea46b92971ccfce5d4641ce938180d99"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/gel_tour_c_p2.png",
+    "bytes": 37853,
+    "sha256": "fd26c1f7a8d66c92389b5e1368a0d0796e5021ac42d2445c81a2e95ef98e4b8f"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/manifest.json",
+    "bytes": 13095,
+    "sha256": "7cff201a76110f8b426212bd4cdf37a5c3f379627c827a550c0a74434b437215"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_a.pdf",
+    "bytes": 2598,
+    "sha256": "6e342352ab466c12146767669320ebf54c23cc09e57719b00e658554345b5aee"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_a_p1.png",
+    "bytes": 30247,
+    "sha256": "313f21b74f3571ad8d5c9fa979a89f3fe0bb39869b493bbba2d88b6a127a88ea"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_a_p2.png",
+    "bytes": 37381,
+    "sha256": "5b68c598c640f7ed2540fdf277d72de2dfdaafb48a2d29e42c46c5aebe45a1bd"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_b.pdf",
+    "bytes": 2598,
+    "sha256": "994af153e048da4925c14798bd0cdae9d8471467427a51eeb24331428f2e9154"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_b_p1.png",
+    "bytes": 30293,
+    "sha256": "59076dd64cac0d0bc5ebac179aa7c76082c995ad9073781d9db1994dfff14016"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_cnc_b_p2.png",
+    "bytes": 37564,
+    "sha256": "2b7855a61966cb5f17d9a0eba81b7c75c852b1ab0e72eb96f5b89576e970bebf"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_c.pdf",
+    "bytes": 2604,
+    "sha256": "303a683e172790ad60a13760737fac303b8050694464002d235d5f95255e90c4"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_c_p1.png",
+    "bytes": 31160,
+    "sha256": "a7a22e476ae116a10faffb4fe27eb74a549ab3601a5d6cfec3458fa5fc5e4c0e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_c_p2.png",
+    "bytes": 38789,
+    "sha256": "1bdf2de9bbb575313a61cdd8da0b5b989610bbb4010259114d49c267734897de"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_d.pdf",
+    "bytes": 2604,
+    "sha256": "89cf0e834227b7b15e8eb6ab920fa1077195b8ab5a3adea443fdb88f540aa735"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_d_p1.png",
+    "bytes": 30694,
+    "sha256": "4c3dabc12b160ce29f24889c03489e90e94949ed7dd33ec6c4fa7bd5b828bfd6"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/matiere_tour_d_p2.png",
+    "bytes": 38084,
+    "sha256": "56666554f09b1afb47138afe8f8890d4b24887032e5f7ee6a7ed92d59211f808"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_a.pdf",
+    "bytes": 2614,
+    "sha256": "32e1344b7c8ae12bf134bb098efa397471607361a781a4feaa066e29a5f18cd6"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_a_p1.png",
+    "bytes": 32826,
+    "sha256": "e02f8e116daee6f873491e76f7dcc965a3bcd2fa756b986917d407190cd16013"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_a_p2.png",
+    "bytes": 37802,
+    "sha256": "01f228e7c5ccbab734f1fc2cc6c5b5c79f929fab53454208c8ba2cbce98e1445"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_b.pdf",
+    "bytes": 2614,
+    "sha256": "49f73031d62ad78bfc405458de7ff966c5d13968181e61c79f06290e836668b9"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_b_p1.png",
+    "bytes": 32706,
+    "sha256": "a79d69bfc17f7379b28496b13a62a0235f9b8c7df671a06fd10058b429d9730f"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_cnc_b_p2.png",
+    "bytes": 37936,
+    "sha256": "dd91f2f1aab60a9f587882c812114851dc662201338d00a4938d90d46f47cc29"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_c.pdf",
+    "bytes": 2616,
+    "sha256": "fa46e6819813131e05821c7a17101faf61cc3d5e5c946c57e5bb040a62a6a118"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_c_p1.png",
+    "bytes": 32421,
+    "sha256": "5529fe1493f6ee78eda6f41ca0ad3c8a827470316be527e346fd26cdfff184b1"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_c_p2.png",
+    "bytes": 38832,
+    "sha256": "a1cfabdbf622324012324521fae2217828c22ef40980e996b2325e7ffb5d4189"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_d.pdf",
+    "bytes": 2616,
+    "sha256": "dfb2690501ecfe36894f7ebfa035abe8deb61ce0c77e2b7784c30f3021110ab9"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_d_p1.png",
+    "bytes": 31963,
+    "sha256": "6227a5e3365d388ce62f1c8f9ab2590ca8f3f63d3de83ae474404a721e22eb69"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/operateur_tour_d_p2.png",
+    "bytes": 37989,
+    "sha256": "82794bfa95beb336b1028ae22a790156bc8e2fd50dcc85a87e9e676c582f9d06"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_a.pdf",
+    "bytes": 2590,
+    "sha256": "92c1fd50d496ad992494d0ada4a5683f4e898d5243977d399a0d00f910a35296"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_a_p1.png",
+    "bytes": 30549,
+    "sha256": "3e82a216079819f02250ea773e7b40492ac8f5f521ac05afad996d55ef7206d0"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_a_p2.png",
+    "bytes": 35969,
+    "sha256": "574b88bcc97e2aa0543812d487d4c80f6ba742bf5dafc5bbdc1aeb9cc6d89125"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_b.pdf",
+    "bytes": 2590,
+    "sha256": "f4f6cde015d6db2cf3e77d6be9b2d7ad56ede45dba808205b5f0df929c528010"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_b_p1.png",
+    "bytes": 30472,
+    "sha256": "1bb3b0bc998655149c018e36b0ef0dbec1b1892a461687f3362811f2bdee9c11"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_cnc_b_p2.png",
+    "bytes": 35988,
+    "sha256": "d0e365f9f14fcbfac7e56ff72a52ef335b9da5fe99d0dfbb30757ed56e5cff34"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_tour_c.pdf",
+    "bytes": 2596,
+    "sha256": "81b0679b960f4b9b96ecd043e9342a95ca8edbf7378e98516e73b8aedc41345a"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_tour_c_p1.png",
+    "bytes": 29600,
+    "sha256": "6aad19c2d3810700b60ffd45d03e3542392ae5370c20b8da0347f59356f523f1"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/outillage_tour_c_p2.png",
+    "bytes": 36060,
+    "sha256": "72e790e918bb9f1d3727b2dccccc731e34acbcca7855539fc557eb4f8d6a19ea"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_a.pdf",
+    "bytes": 2630,
+    "sha256": "32d5fb7d78ff9667175edb9b24497c0d6f3a3dc88e9fc1cae5319e3c54e053c9"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_a_p1.png",
+    "bytes": 34298,
+    "sha256": "3ba83120aebfe9fe2d2f1dc7e8b77602e46fe792b0ba067ded5a5d7933ed4fe0"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_a_p2.png",
+    "bytes": 38235,
+    "sha256": "2dcdf9f4d2ff53e2a2a3d1caae1d18e4665f761848f2e07f46a57b5dc538da9e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_b.pdf",
+    "bytes": 2630,
+    "sha256": "d69b32f3a781f58cd8766c2dd27fca366672443a2d6d5954fc1d2665daa72a56"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_b_p1.png",
+    "bytes": 34294,
+    "sha256": "12344f23b8e506ee75223d025f4e7ba65ac132eb4b55f4011bdcc530b8b4f151"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_cnc_b_p2.png",
+    "bytes": 38540,
+    "sha256": "adffe8bcb3f79218c7e67bbc926cec935f8b9efe83dcb408d84fc75a8b7f318b"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_tour_c.pdf",
+    "bytes": 2638,
+    "sha256": "559e19aaa765e2f1b5ec8d1b76588a25078c78299c4677c295f2829b6ed25a7d"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_tour_c_p1.png",
+    "bytes": 35127,
+    "sha256": "50264b8880560b3d08fb7cb80e0c02261e09c1dab9a85238e2adfa821e2a4ee7"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/publication_tour_c_p2.png",
+    "bytes": 39552,
+    "sha256": "87f1ad4db487761ef4d664869d345214dd22c8b559368487325b202a3a8657fa"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/regles_reglage.pdf",
+    "bytes": 2713,
+    "sha256": "cc416a2ecd2d42938c0edf3e99fac96b7a43baf3c2320fc55e708a3934e9062e"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/regles_reglage_p1.png",
+    "bytes": 49286,
+    "sha256": "07ae7c3b955e3b4e66af4ce35ab877c96ba030c864015a3b668d2c553e603156"
+  },
+  {
+    "path": "OrdoPlan/data/corpus/regles_reglage_p2.png",
+    "bytes": 36078,
+    "sha256": "76e3ac5653f17e2516683fbef9123f56a416c547b7af9ca493db34fafb2dd5a8"
+  },
+  {
+    "path": "OrdoPlan/data/erp/orders.csv",
+    "bytes": 260,
+    "sha256": "4358d06f9ce1f52c88a4698b0c40acee457dfdc399a1794f9e7aaafb3d778a32"
+  },
+  {
+    "path": "OrdoPlan/data/erp/orders.xlsx",
+    "bytes": 5230,
+    "sha256": "482097dda8ba87e728d7522063e518ceaab603b700a322f62ab47ccb1e9b7de7"
+  },
+  {
+    "path": "OrdoPlan/data/index_local/manifest.json",
+    "bytes": 254,
+    "sha256": "d531f4fec8c5836150f9095eaf6e2ddd65f0eeb84f0e37ba1e20a1ed4f23ae37"
+  },
+  {
+    "path": "OrdoPlan/data/index_local/qdrant/.lock",
+    "bytes": 13,
+    "sha256": "67a987c432005e3afcc13a871b3ddabaeee0f4504058da65b0769016d3083b44"
+  },
+  {
+    "path": "OrdoPlan/data/index_local/qdrant/collection/ordoplan_local_384_fded8b803b/storage.sqlite",
+    "bytes": 421888,
+    "sha256": "3635c67652ae1e92235775344057be4c453a5457e6847c21b188e0d4f42fef72"
+  },
+  {
+    "path": "OrdoPlan/data/index_local/qdrant/meta.json",
+    "bytes": 529,
+    "sha256": "0af4c8b41fe09f8d9bc148f69b7291b1ca10d9327a2cc16562b90cee68f33c86"
+  },
+  {
+    "path": "OrdoPlan/data/instances/demo.json",
+    "bytes": 9735,
+    "sha256": "0aaca32dfd5cd743d37b92623e2fe8c574484c9121ae727a53da478e5e0f27b0"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-00.json",
+    "bytes": 9838,
+    "sha256": "4fc1923030d1676f6375eb6c6421d5d07cc208404a02161943f277324bdd4a12"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-01.json",
+    "bytes": 9842,
+    "sha256": "27fe3df5cfbf02c7f75940b7f0d9e1d0995642146c694c432028382ddc2f935e"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-02.json",
+    "bytes": 9840,
+    "sha256": "5fbbf65c619e3c4e57cfb119b5e6a3d694cb212958df9a5c6fa159877d7beeac"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-03.json",
+    "bytes": 9841,
+    "sha256": "b6e2f116e2c0f71342b3fbfa425bb1bbc443eb36b0b1be45a3a70a5379317f25"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-04.json",
+    "bytes": 9838,
+    "sha256": "20224da279a2a1e5a1b32ade474911b5e080236fa4718496731de0a7a899d5e6"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-05.json",
+    "bytes": 9837,
+    "sha256": "470a6278db8d1e2073d4e98f934ecc48164ea16ec34e983ae7216337673bbed1"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-06.json",
+    "bytes": 9840,
+    "sha256": "b343df85462b0b9940f4141c680f342142ba34e7f9c9797c399d8a93246ff9ee"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-07.json",
+    "bytes": 9839,
+    "sha256": "ce2f6ad8d07a4de72cc4709df1463dbd20df894c60c1690f5f6af0b3c80d9354"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-08.json",
+    "bytes": 9839,
+    "sha256": "814d16d77ff9688fc367290ce45053ccf986702faac84d6b5275ace65f14eff7"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-09.json",
+    "bytes": 9840,
+    "sha256": "e87ad1f7360e773b729e5306bc8a7f70242b7c3c506f416660c0ac9121820313"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-10.json",
+    "bytes": 9839,
+    "sha256": "4ef4e98ef25c0b071ec5a8891aa4fdb6d33a0265a3696dab614ed07ae0f4e23a"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-11.json",
+    "bytes": 9837,
+    "sha256": "4e947f031d5d10497c01f768fb92d80db46c3e157723e79dff709b002e8edc89"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-12.json",
+    "bytes": 9842,
+    "sha256": "58b7121ea07fd36cc25420a75367e2e6dd1bb6e2075ca7c3dbdeae5ed0d73003"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-13.json",
+    "bytes": 9837,
+    "sha256": "986613b788c32b65f7cd49b63158c78b1f0715959b7de887fcc5664c02dea03f"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-14.json",
+    "bytes": 9836,
+    "sha256": "d5104181cbf3510d45682ea1064e930d46b7902d73d993f32924dc801ded5369"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-15.json",
+    "bytes": 9840,
+    "sha256": "6bc2ac5538f26f313c83b75a21a00124c91755a579630770d22ae648f13a5873"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-16.json",
+    "bytes": 9839,
+    "sha256": "fac347137730ca0d578ea4363f241b96d5b68dbdd16c5bf81593e03339680e6c"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-17.json",
+    "bytes": 9843,
+    "sha256": "c22d065264ac236d91dc03c9761ad18c781834e672bca21de28ccaaae03b2c4b"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-18.json",
+    "bytes": 9838,
+    "sha256": "e1f1089770761e1f067b8fd909f04b041964bf836043e16e9a5d9a2bc9373945"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-19.json",
+    "bytes": 9841,
+    "sha256": "dde426ae57f92ed8076eb61a1030d3ed5d43b2ed68c2d7815539ff9a5f2b462a"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-20.json",
+    "bytes": 9841,
+    "sha256": "3fbad30059e372fd1ede58f546f578c34bedf5a4af493c9f449db8daba5cd873"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-21.json",
+    "bytes": 9836,
+    "sha256": "11b6342ba1f5eb6a04819d4b5732869304a4532111779a77464e0e4bb838083e"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-22.json",
+    "bytes": 9838,
+    "sha256": "f6ddce9a49513d38d86c6ba8f257ad91f7cace324a017116372236f98e8201ac"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-23.json",
+    "bytes": 9839,
+    "sha256": "c1f77dc10e621cdfb2abf6ebec132cca6271476abfc07d4507f82c4ac1daed5e"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-24.json",
+    "bytes": 9840,
+    "sha256": "029de0973264812471f1f88611324289bc90ab23f55bf4fe951a8c59d70df51b"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-25.json",
+    "bytes": 9838,
+    "sha256": "86bace0094f6111fa0b54d82dbde449395e17eb1e9d3a574cf32e6d7dd7ebe7b"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-26.json",
+    "bytes": 9840,
+    "sha256": "51d9a8a816e40c81f1181e61e80e318299fd4eb3443395dfa19c66e14912965f"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-27.json",
+    "bytes": 9841,
+    "sha256": "b62b0f94d4e250636fff0f5cba573b25c02a2d8b57187b781465cbdafac39c1d"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-28.json",
+    "bytes": 9839,
+    "sha256": "3071bbecf966331111b544838bc3b195fb62be9b9b5a6ef77afea7d2d4dc5060"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-29.json",
+    "bytes": 9839,
+    "sha256": "7d43fab1730dd6580169c6b013af78c444ae374c597bf5dd9d4773c70efc8d52"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-30.json",
+    "bytes": 9838,
+    "sha256": "f3eda3911be7626836639651a4301c49128e77c0fc65d7b1e463f8146b9af8e4"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-31.json",
+    "bytes": 9836,
+    "sha256": "f3236bd6e556d9ee92d2325b6efb717cfceba4ed0c6adbac6de794900f6ce4ef"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-32.json",
+    "bytes": 9841,
+    "sha256": "73d8a9896ae1e14beb99ffc1e3acfb0cfe04c5dec9235683eb2ab392275a5a7b"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-33.json",
+    "bytes": 9839,
+    "sha256": "31466a98062d08b4b077b475b6c6b556ff75856c93f44a152c42ab144c9085af"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-34.json",
+    "bytes": 9841,
+    "sha256": "3571d779d806ebab4c04059a74c7468efc907fb5f22d8577c600654dc05bdac2"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-35.json",
+    "bytes": 9838,
+    "sha256": "750203edfcdc4ff2b596b0c4641be37f3df8d276a61b39391c0c21ab1ecbc375"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-36.json",
+    "bytes": 9839,
+    "sha256": "61e099bd71221da4c65914bf08f8c4b0c85058a711b7eaa58874f00a6bf64998"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-37.json",
+    "bytes": 9839,
+    "sha256": "1806ab567d6f876df24a1a925f1d90cc471251d70dc305a069ada68e6e36e90e"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-38.json",
+    "bytes": 9838,
+    "sha256": "021f68312e150f5c81b3236b53bd3e8f42bc472033ce6119a49542bc8624bd20"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-39.json",
+    "bytes": 9843,
+    "sha256": "8cbdad227fd7db33be8bc62b67f1341b606d18d04847dffd365d188389e920aa"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-40.json",
+    "bytes": 9837,
+    "sha256": "1e59d467dad8e7e118b9a8c231b1fda59a8684f83b6a219d16f95fdddf41e9c5"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-41.json",
+    "bytes": 9839,
+    "sha256": "23c189d0aa2a861a3cbcf7d35a1b84b82e837a1a01511982b3848434cea6330c"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-42.json",
+    "bytes": 9836,
+    "sha256": "c6a68ab66b5c291434bb4fd7561d8fdd4e64669168935ac391a66c884c97dde0"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-43.json",
+    "bytes": 9841,
+    "sha256": "541e5eb6d772a5be358879bdf66c2e6fecf90f72adb90fcfa584ea4c1d07701b"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-44.json",
+    "bytes": 9841,
+    "sha256": "01554034d3aa802fa72953a6d11fe1d3c800e1d8e5feed4b0538a9039a2ca05c"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-45.json",
+    "bytes": 9842,
+    "sha256": "df74668c637bfc44930125654e2164151fa1b014636e57da735ab61707e717b4"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-46.json",
+    "bytes": 9839,
+    "sha256": "71528b53c92c4994e1182fc5eaa718a4b31a1bd972286a385a2c53bf431fb0b4"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-47.json",
+    "bytes": 9839,
+    "sha256": "4e9ed41a2a233b1f06022c073ed72e2e76e1af806ee8e0a847180669e764a2a3"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-48.json",
+    "bytes": 9840,
+    "sha256": "468adffc97bfa4f02f2d6360e15e62fd66c43b6e6766d5fa093b198fab5dcd55"
+  },
+  {
+    "path": "OrdoPlan/data/instances/instance-49.json",
+    "bytes": 9839,
+    "sha256": "b1c08b97afa97efeb4e163b2e85a3fc19a7464ee7c48fd28d604638632994b17"
+  },
+  {
+    "path": "OrdoPlan/data/sample_images/afficheur_cnc_b.png",
+    "bytes": 12495,
+    "sha256": "9d5a3da6eae08ea68966eb328a7e5b271587aac7940a3c8199ed5a915a7b2419"
+  },
+  {
+    "path": "OrdoPlan/data/sample_images/illisible.png",
+    "bytes": 1740,
+    "sha256": "8919e37198553524b648e57c15c5da4f1f64f1a5de31eef47f6cc4256432d6a8"
+  },
+  {
+    "path": "OrdoPlan/data/sample_images/injection.png",
+    "bytes": 15037,
+    "sha256": "affda369a7eadae28f97815cdb00a417c70a8cb221758a53164a7d98b9a1a7b6"
+  },
+  {
+    "path": "OrdoPlan/data/sample_images/ordre_OF_109.png",
+    "bytes": 20863,
+    "sha256": "4b580975764ea727229eb2bc9bd945dd095d5794b2b5d43e52b3778129e5fc88"
+  },
+  {
+    "path": "OrdoPlan/data/synthetic/catalog.json",
+    "bytes": 7819,
+    "sha256": "c11abac66bdc9b3f8c1eb92e2acfb3d917e921f471a54b7cb47ff0fd7b4b83dc"
+  },
+  {
+    "path": "OrdoPlan/data/synthetic/evaluation_scenarios.json",
+    "bytes": 27172,
+    "sha256": "79b51ce9a44d31da9a121d6cb86cb1a2a56d4327f98f4c223fa02aa2aed7511e"
+  },
+  {
+    "path": "OrdoPlan/data/synthetic/mcp_database.json",
+    "bytes": 21251,
+    "sha256": "d3259b296f541a287ad5e7223d1b52753af4dc6c4d8a35bb84b8f24a17a2d85b"
+  },
+  {
+    "path": "OrdoPlan/data/synthetic/urgent_order.json",
+    "bytes": 923,
+    "sha256": "4bc98a3de4934113ee6124384f9ba417b13d76ca667cf90a836bdce3b9f577b7"
+  },
+  {
+    "path": "OrdoPlan/data/training/manifest.json",
+    "bytes": 1464,
+    "sha256": "8ce4236914a87e3ce1142a8a55854c5632877ed4a88f72dcd2f30dfb01380a0f"
+  },
+  {
+    "path": "OrdoPlan/data/training/triplets.jsonl",
+    "bytes": 894222,
+    "sha256": "1750f2d8abbcb0e7f6fa5e90fe54be89a51e1458725f367f0f152a8c10b9d1b9"
+  },
+  {
+    "path": "OrdoPlan/docker-compose.compact.yml",
+    "bytes": 407,
+    "sha256": "4986e72ff5b2b2265a1ffc7d152586f349d5e1aecb4ca809258041c4ea3377de"
+  },
+  {
+    "path": "OrdoPlan/docker-compose.neural.yml",
+    "bytes": 678,
+    "sha256": "6a52ae08784982d18a55e1b8b2b93e597dd57ff3fb3dc7be7bfe723bdd3508bb"
+  },
+  {
+    "path": "OrdoPlan/docker-compose.yml",
+    "bytes": 2129,
+    "sha256": "2606fd9aca9b6341bc509addb21691ac872041c22d7deef75a075480dde6cb66"
+  },
+  {
+    "path": "OrdoPlan/docs/cadrage_et_architecture.md",
+    "bytes": 6007,
+    "sha256": "977bf15d21f366706d13549a50efa6a88755a41812c1f581f30094aa8c29e6d9"
+  },
+  {
+    "path": "OrdoPlan/docs/demonstration.md",
+    "bytes": 4390,
+    "sha256": "59a78bd26ab59b21b1577466330c4e44d83c26034f5884da7c36d25da70e2bec"
+  },
+  {
+    "path": "OrdoPlan/docs/deploiement_verifie.md",
+    "bytes": 3617,
+    "sha256": "83d4797e35ef4102a2e328369ef4a85159a14ffa413f04ea6e4d7381e01c04b4"
+  },
+  {
+    "path": "OrdoPlan/docs/entretien_atelier.md",
+    "bytes": 1739,
+    "sha256": "c37bb3fc09818f1bbc5edb6cc4fd99698706bb3c6bc32fd405af03d09bb1a38f"
+  },
+  {
+    "path": "OrdoPlan/docs/evaluation_protocole.md",
+    "bytes": 4263,
+    "sha256": "b4b71913a7b8b59d398d8e917df89337e7b40d740315d058ece70050eb9a1330"
+  },
+  {
+    "path": "OrdoPlan/docs/fiche_de_limites.md",
+    "bytes": 5022,
+    "sha256": "6a437a56971d99c8f7eba62b36cf4f5837eab4d2eb49702736ed1367ec196b09"
+  },
+  {
+    "path": "OrdoPlan/docs/guide_utilisateur.md",
+    "bytes": 5558,
+    "sha256": "45322c41cefff9391af3772bb8a7854f22de3bafb310fba61de1f45694f6dd5b"
+  },
+  {
+    "path": "OrdoPlan/docs/installation.md",
+    "bytes": 6722,
+    "sha256": "00c2cc6b1c432642f2fb71af09e1479e5bbfc3ae8e4fddeacba03e62e6811433"
+  },
+  {
+    "path": "OrdoPlan/docs/jalons/V1.md",
+    "bytes": 431,
+    "sha256": "c6608c3bad5b2ff09e56e4f96dd1de74b7c765390c2326d15c98b75850fea1af"
+  },
+  {
+    "path": "OrdoPlan/docs/jalons/V2.md",
+    "bytes": 451,
+    "sha256": "97cabeaa7ecea35f01cdb027df27918143ccae087b2165537a10a779e82c7683"
+  },
+  {
+    "path": "OrdoPlan/docs/jalons/V3.md",
+    "bytes": 437,
+    "sha256": "35b0219dddbf99bff3475c7d6c2e0cb1b2f0af94ae25c05da0969754a0da0383"
+  },
+  {
+    "path": "OrdoPlan/docs/jalons/V4.md",
+    "bytes": 450,
+    "sha256": "c5ab37820b37df02dd79def3c4ad63da2292c46a9aa120a87ec9c41ce02bc086"
+  },
+  {
+    "path": "OrdoPlan/docs/matrice_conformite.md",
+    "bytes": 5084,
+    "sha256": "eee472fd6910bdc09500fa9cc96748f391c06254c9489705f74e8d9cf110cf98"
+  },
+  {
+    "path": "OrdoPlan/docs/modele_optimisation.md",
+    "bytes": 4538,
+    "sha256": "3d6b3588961e3a8dc412ba6d7b66ff9be179ad53bc77333844040bc9e37f6d1e"
+  },
+  {
+    "path": "OrdoPlan/docs/rapport_synthese.md",
+    "bytes": 3175,
+    "sha256": "c2dec80bcaaedc9282096bf7d57f1f2be0da4ed940b5202f195612a30c951413"
+  },
+  {
+    "path": "OrdoPlan/docs/resultats_observes.md",
+    "bytes": 3148,
+    "sha256": "11ff594c22a8481e1b0d91d0521d030251b1b48004ea7f9b7a72b293cccb48a6"
+  },
+  {
+    "path": "OrdoPlan/docs/securite.md",
+    "bytes": 4349,
+    "sha256": "a269b0cf0a663f8b36456b38377398d6503a0fb3054a8153fcc2a5a5418511e8"
+  },
+  {
+    "path": "OrdoPlan/docs/soutenance_notes.md",
+    "bytes": 3769,
+    "sha256": "1066cf9cafa48cf859edba515b1430f2b9fc175909c1d82cc33c1a3cda4e60c4"
+  },
+  {
+    "path": "OrdoPlan/models/models.lock.json",
+    "bytes": 1442,
+    "sha256": "ba91135d9917e038776a36d2f11025944ae995f699402843cbe7d55df0c9aa87"
+  },
+  {
+    "path": "OrdoPlan/models/reranker_local_v1.json",
+    "bytes": 571,
+    "sha256": "1405916f26be1d7387fbc0f9bcbb0331c6e502c04a52c36dcbf777e7a574d81f"
+  },
+  {
+    "path": "OrdoPlan/prompts/evidence_check_v1.yaml",
+    "bytes": 540,
+    "sha256": "ef43679180838f4b26bedac8152e3cf279116cf3b70f989b8394b1615774e0f8"
+  },
+  {
+    "path": "OrdoPlan/prompts/explain_schedule_v1.yaml",
+    "bytes": 590,
+    "sha256": "80405fc4e388577e7470d67366757fb8e20b396a2875c497b42d537c4f76456a"
+  },
+  {
+    "path": "OrdoPlan/prompts/extract_work_order_v1.yaml",
+    "bytes": 523,
+    "sha256": "369e918abe2a14e7aa8ad49d9e2a4e1701404a4b453e61a14e8cb598c9e28fbf"
+  },
+  {
+    "path": "OrdoPlan/prompts/publication_draft_v1.yaml",
+    "bytes": 468,
+    "sha256": "313fbf8d3ecba939a1616e6e8ef2750caeb018a4a1d2df7d41f4355000e4b650"
+  },
+  {
+    "path": "OrdoPlan/prompts/read_machine_display_v1.yaml",
+    "bytes": 436,
+    "sha256": "4a4fe6d079cf7ae221a9f559a156c1bd0e9ce78400b2573bb3c61329a10d01bc"
+  },
+  {
+    "path": "OrdoPlan/pyproject.toml",
+    "bytes": 489,
+    "sha256": "9976301b16dda488ae5bf7dfed234fd68334df0a5e35011f2380e791bd17f612"
+  },
+  {
+    "path": "OrdoPlan/rapport_projet.md",
+    "bytes": 57636,
+    "sha256": "744ed08066105da79343d8531fff2e03dffb392106fc039c3a4a02558557da6f"
+  },
+  {
+    "path": "OrdoPlan/reports/api-tests.xml",
+    "bytes": 1182,
+    "sha256": "b80bef2b7e51a4cd8eb23755f14c70566bd9497cd5f547613115d198af0d3837"
+  },
+  {
+    "path": "OrdoPlan/reports/architecture.png",
+    "bytes": 89644,
+    "sha256": "34552ea93ab06f99f5e7d07c10808735055d4461fa37ecd2d8ae522a989f07ea"
+  },
+  {
+    "path": "OrdoPlan/reports/comparaison_solveur.png",
+    "bytes": 74226,
+    "sha256": "7a92650ab6b8d2772e2c06f74fe7b06a857152739a704a1266c7966db043021e"
+  },
+  {
+    "path": "OrdoPlan/reports/dependencies_licenses.json",
+    "bytes": 1454,
+    "sha256": "63181a3c54430fd3aa538c74272e0889c15d50ceb0817d126e01673dac56ecc1"
+  },
+  {
+    "path": "OrdoPlan/reports/dependency-audit-full.json",
+    "bytes": 10136,
+    "sha256": "5649030c22d99cab503254ab940736570d0a601f4504a3d106867fb2d31c4be8"
+  },
+  {
+    "path": "OrdoPlan/reports/dependency-audit-initial.json",
+    "bytes": 478000,
+    "sha256": "00a0cde20f6be1c9ab5d48d8476443bb752331a77c84d2b2ea2ddc7a9a7bdc3d"
+  },
+  {
+    "path": "OrdoPlan/reports/dependency-audit.json",
+    "bytes": 5803,
+    "sha256": "811d8050983e3cf7626305868bcdcc581379c9b380627c84bd99be7c33d067cf"
+  },
+  {
+    "path": "OrdoPlan/reports/deployment.json",
+    "bytes": 760,
+    "sha256": "7d72907987ca8d0d502b0b1e6d95f39bf517955c278bee517387573a0915893d"
+  },
+  {
+    "path": "OrdoPlan/reports/end_to_end.json",
+    "bytes": 37905,
+    "sha256": "fe5e40cf4afa5dcf6f67a2b4ee7cbfbf279181ab222a44e4584a10743637b067"
+  },
+  {
+    "path": "OrdoPlan/reports/evaluation.csv",
+    "bytes": 8038,
+    "sha256": "4ee17eca05c66675200e7f5b1d90378d86ab6d618d1eb307e206223ae7b0103c"
+  },
+  {
+    "path": "OrdoPlan/reports/evaluation.json",
+    "bytes": 78667,
+    "sha256": "e17ff3a3df15f022af87b82d5cbc58a9e897dae2906b62a3d49080d6e5fbfdbd"
+  },
+  {
+    "path": "OrdoPlan/reports/gantt_breakdown.png",
+    "bytes": 28339,
+    "sha256": "a1223457c7351e34e9f213eaf0014b83b48b2815eb5d5c1f959bc233522571ea"
+  },
+  {
+    "path": "OrdoPlan/reports/gantt_initial.png",
+    "bytes": 24897,
+    "sha256": "11463d4cfb4afd507e71381dc7b4fca4d26e5e82d1aa7c5712deebd7cd8e1261"
+  },
+  {
+    "path": "OrdoPlan/reports/gantt_urgent.png",
+    "bytes": 29924,
+    "sha256": "b31e4f0abbd8f62351e6a17f20482b45aec2c48b294b86eecf7141cf3c61e545"
+  },
+  {
+    "path": "OrdoPlan/reports/interface_planning.png",
+    "bytes": 94349,
+    "sha256": "e360c9884d93aa1e5120510fac28bbac0cae1616b730163dfa4bfc4bee9da203"
+  },
+  {
+    "path": "OrdoPlan/reports/interface_rag.png",
+    "bytes": 81113,
+    "sha256": "6a045c68e788565e3884192399b1fe0cced008319cac171b3c3c5e943d234ba0"
+  },
+  {
+    "path": "OrdoPlan/reports/mlflow_runs.json",
+    "bytes": 1882,
+    "sha256": "62ecf18f6ba2cf152dc1f1cdd6cdaacd7f063624de12c9f3d6d242be992f6875"
+  },
+  {
+    "path": "OrdoPlan/reports/models_pack_manifest.json",
+    "bytes": 10142,
+    "sha256": "2af0732db75db4fcb9ef80a6f30280a4593cc72bfc3a5dac795b14151a06efe7"
+  },
+  {
+    "path": "OrdoPlan/reports/native-end_to_end.json",
+    "bytes": 38066,
+    "sha256": "67039925361b0ac7c9d5c5654ca1922feff6c9e6aab9cda8e01c58732c0a957a"
+  },
+  {
+    "path": "OrdoPlan/reports/native-unit-tests.xml",
+    "bytes": 6745,
+    "sha256": "87d7f66cee04f44036a6c092f39821a295dfe57250d2b0eb5226d62ef053fbaf"
+  },
+  {
+    "path": "OrdoPlan/reports/neural_reranker_metrics.json",
+    "bytes": 1239,
+    "sha256": "265a34eb073b9d2bdd672621b8be1e3a500cfe10eb6c9fc1217aaf104e7f5dbd"
+  },
+  {
+    "path": "OrdoPlan/reports/openapi.json",
+    "bytes": 25640,
+    "sha256": "c1ba43d01b247c510ed7dada9a616b60b9ef72b730701a8110e9db51a25c11b9"
+  },
+  {
+    "path": "OrdoPlan/reports/release_verification.json",
+    "bytes": 692,
+    "sha256": "e5fa3a13c86f79489d47f5201ced0369fb1970719277207f325c00608be0cc6d"
+  },
+  {
+    "path": "OrdoPlan/reports/retrieval_metrics.json",
+    "bytes": 669,
+    "sha256": "2479838dbe39322f10be740875287e3200df82926e95291b9680e24e1fa3a173"
+  },
+  {
+    "path": "OrdoPlan/reports/semantic_smoke.json",
+    "bytes": 604,
+    "sha256": "546636d008a61986570be5cb47ce0b54babfe68ed961e4d3839f9fb1048d0cfb"
+  },
+  {
+    "path": "OrdoPlan/reports/smoke_plan.json",
+    "bytes": 12559,
+    "sha256": "5eecb1311526462976b76a021d1564836e0f89a08171e9b1a121648b5c1d246d"
+  },
+  {
+    "path": "OrdoPlan/reports/ui_browser.json",
+    "bytes": 329,
+    "sha256": "e6177213a81fafbbf4eb82e5a519e92b9fe5b5c6872148bf606ade129dfb9902"
+  },
+  {
+    "path": "OrdoPlan/reports/unit-tests.xml",
+    "bytes": 6852,
+    "sha256": "21428d818d4f3c610bc803666321a8250152a608c0f7f2253272a3afd9127016"
+  },
+  {
+    "path": "OrdoPlan/reports/vlm_smoke.json",
+    "bytes": 57,
+    "sha256": "e33524e2c715e0e598277f384d15712039b620fbd93dca8c0e10960770f97c9a"
+  },
+  {
+    "path": "OrdoPlan/requirements-dev.txt",
+    "bytes": 170,
+    "sha256": "c15464a6896685a5cae3221be97a0fe82bf8e8aa7478d2b319bb1d044e5b9a6a"
+  },
+  {
+    "path": "OrdoPlan/requirements-docs.txt",
+    "bytes": 81,
+    "sha256": "be5cbbca2f5f5f90ee11c04802c328a5e55727a2d52838d50e79e59c0e0ef917"
+  },
+  {
+    "path": "OrdoPlan/requirements-full.lock.txt",
+    "bytes": 3194,
+    "sha256": "2e663685f1900ec3af9072583c926378391fde6975a7a99e5c47d27f76687d2c"
+  },
+  {
+    "path": "OrdoPlan/requirements-neural.txt",
+    "bytes": 240,
+    "sha256": "11a3e3d2e51e169040ac3d69ae69b49899bffde953a2c0d4d4864ebf6eec15b3"
+  },
+  {
+    "path": "OrdoPlan/requirements.in",
+    "bytes": 652,
+    "sha256": "7957834a3df1cf43508891e22a969b112dee80a2dc1a22ffb6f53a4c90d40801"
+  },
+  {
+    "path": "OrdoPlan/requirements.lock.txt",
+    "bytes": 6636,
+    "sha256": "2bba5f242be0adb09757721da2af3913614599c71fb6ddcd34a3acd3d50f80aa"
+  },
+  {
+    "path": "OrdoPlan/requirements.txt",
+    "bytes": 106,
+    "sha256": "7949fecd353c850b44a34318d45bfacb2e3e3f330667ef2de3abfc473d3c2594"
+  },
+  {
+    "path": "OrdoPlan/run.bat",
+    "bytes": 197,
+    "sha256": "f9df21c6e38e705f9967e6e0993fa4f823dc475a5d9e3c34aa60c5690982356e"
+  },
+  {
+    "path": "OrdoPlan/scripts/build_deliverables.py",
+    "bytes": 25732,
+    "sha256": "27713eaa7f789accc8e5381bf83e43e4151146371984df4efc09633b0596b8b2"
+  },
+  {
+    "path": "OrdoPlan/scripts/build_smoke.py",
+    "bytes": 2826,
+    "sha256": "6642187fb4471750daf83a2968e08978221032461eb65bee3b75167df2277e01"
+  },
+  {
+    "path": "OrdoPlan/scripts/container_smoke.sh",
+    "bytes": 513,
+    "sha256": "dd7ee05dad226eefec767b2d0c9e1cb7d76460f5632502e23bf3f3dfe4be8f72"
+  },
+  {
+    "path": "OrdoPlan/scripts/demo_end_to_end.py",
+    "bytes": 4357,
+    "sha256": "40650832dadf7fbe5a10b322a07e88b0fc262e14942c486e777fe1198c6affa6"
+  },
+  {
+    "path": "OrdoPlan/scripts/download_models.py",
+    "bytes": 1572,
+    "sha256": "92419eac62e6aa75f50d49be67d9849aa1b603be7da75e3028836418948a9996"
+  },
+  {
+    "path": "OrdoPlan/scripts/evaluate.py",
+    "bytes": 15992,
+    "sha256": "63b4f0439fa6351915b0e1f383909c1f275490928f577fc41bb5cea1ed8caea1"
+  },
+  {
+    "path": "OrdoPlan/scripts/generate_data.py",
+    "bytes": 11680,
+    "sha256": "e3bfd20818296231ad03230f8788734f6c9381ab16e8f3ccce0c1cb3992727fa"
+  },
+  {
+    "path": "OrdoPlan/scripts/ingest.py",
+    "bytes": 1269,
+    "sha256": "4e4df7087bb311f3ecb38913774fd936b1147510e2c981eaadc77991d17fd9ea"
+  },
+  {
+    "path": "OrdoPlan/scripts/install.ps1",
+    "bytes": 310,
+    "sha256": "4724cb41edbb07dab1260e680f407aa3b619c59a1e7349786cc7e12de864cbe4"
+  },
+  {
+    "path": "OrdoPlan/scripts/install.sh",
+    "bytes": 256,
+    "sha256": "301b32e7d55e732a7b2f4b3c63e5acb3ff4f84e5524d43d1ca57beea090fdd64"
+  },
+  {
+    "path": "OrdoPlan/scripts/log_experiments.py",
+    "bytes": 1753,
+    "sha256": "61a91d8ef1ce50a1f9a49d9b9a7fe5feabc83b76b005a0090f47af0ca6c785ff"
+  },
+  {
+    "path": "OrdoPlan/scripts/manage_users.py",
+    "bytes": 890,
+    "sha256": "41cbce7a3000b4fda8d6a9a930d5a3792124d2a786f8a5492c3c9a2f256f75c3"
+  },
+  {
+    "path": "OrdoPlan/scripts/purge.py",
+    "bytes": 648,
+    "sha256": "c6f63b2490722d676ae74a50386f5b846363c95d362440217bed97ca0535ec82"
+  },
+  {
+    "path": "OrdoPlan/scripts/release.py",
+    "bytes": 2286,
+    "sha256": "a9ed67adcb10d61aa347aecccb6b442e86c491d22706d21c1fd9b5b1f4ac9258"
+  },
+  {
+    "path": "OrdoPlan/scripts/run.py",
+    "bytes": 2316,
+    "sha256": "1cf41bcbb508af9c8bccacd7a4f6e1a9f5b54c503700b5ede926a6cb45eb5cab"
+  },
+  {
+    "path": "OrdoPlan/scripts/scan_secrets.py",
+    "bytes": 1121,
+    "sha256": "7e3015703d7d25707fedcdbe315535db17e356f27d9a0f24253eff9d7a833669"
+  },
+  {
+    "path": "OrdoPlan/src/agent/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/agent/graph.py",
+    "bytes": 15144,
+    "sha256": "e946d8966c7299ace1e0f106de9e2debf7662769d92002e4b2c1a1c5573670e2"
+  },
+  {
+    "path": "OrdoPlan/src/agent/guardrails.py",
+    "bytes": 490,
+    "sha256": "ecbc536bde1c3b9d0b5b9f35d9a5b0fbd7da1d1c16f7046d5e5300154c6ec0b8"
+  },
+  {
+    "path": "OrdoPlan/src/agent/nodes.py",
+    "bytes": 315,
+    "sha256": "da839f5391d70998c3c0ad1544b5ece04d3712ed5d9cb5d82b0858792b4224b0"
+  },
+  {
+    "path": "OrdoPlan/src/api/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/api/main.py",
+    "bytes": 14817,
+    "sha256": "fe1c6fc9da1b0b09e54d2fdddbde6befa49dd8291d1be10ff87099ce8cd0f18e"
+  },
+  {
+    "path": "OrdoPlan/src/auth/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/auth/auth_service.py",
+    "bytes": 1689,
+    "sha256": "6c4dbf606e26a409e4b9d28734d150f29f7f3685519dbf9c4c60659c297d5427"
+  },
+  {
+    "path": "OrdoPlan/src/bot/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/bot/telegram_bot.py",
+    "bytes": 8687,
+    "sha256": "465eebc146b161b8d1871bd191c3a1c49a8ef2c175b6654f00527b9e4bff3ec1"
+  },
+  {
+    "path": "OrdoPlan/src/config.py",
+    "bytes": 595,
+    "sha256": "2cc37f2abebcd367a0ff143cf2f5b57b5ba49593f2e44c432ccc20777ab231f2"
+  },
+  {
+    "path": "OrdoPlan/src/ingestion/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/ingestion/pdf_parser.py",
+    "bytes": 4595,
+    "sha256": "6ca1a7c32777d22eb295da6ac02a72ecca704b614a2a68b869e660e3bec2e375"
+  },
+  {
+    "path": "OrdoPlan/src/ingestion/vector_indexer.py",
+    "bytes": 358,
+    "sha256": "df610d6579c855eddb9ed63bedf3e7005708cb5a01cf40d4c77f30530b63eef3"
+  },
+  {
+    "path": "OrdoPlan/src/llm/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/llm/client.py",
+    "bytes": 2788,
+    "sha256": "06999aeed5daf7095b0c8812bf7a134456659cccf65ae88ddab4d9a96629b362"
+  },
+  {
+    "path": "OrdoPlan/src/llm/prompts.py",
+    "bytes": 359,
+    "sha256": "e9f0698df9ed1931abbf48dfbb6984cf9eb8dc348c9ee6ba7626e7eca58fe9de"
+  },
+  {
+    "path": "OrdoPlan/src/llm/worker.py",
+    "bytes": 1679,
+    "sha256": "0c5a661433cc74983da92c9d7dfe6398f374cd70976e0a2d79331e2794a177e9"
+  },
+  {
+    "path": "OrdoPlan/src/mcp_server/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/mcp_server/client.py",
+    "bytes": 2068,
+    "sha256": "fecbdbcebfaa55895ec2521df3988918ea295dda58ed579af8dff628f4a4f91e"
+  },
+  {
+    "path": "OrdoPlan/src/mcp_server/server.py",
+    "bytes": 3865,
+    "sha256": "cd434ac3fe9188c391b3f986d3e76382c135858e01491273ff8a3655f4aaddf8"
+  },
+  {
+    "path": "OrdoPlan/src/rag/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/rag/retriever.py",
+    "bytes": 4551,
+    "sha256": "eed1ebedfa28f727a5c8192401bdfdd793ee0272721e096cb2aa5f045edf7f35"
+  },
+  {
+    "path": "OrdoPlan/src/rag/visual.py",
+    "bytes": 945,
+    "sha256": "b941d8638963af024143b098c959aa0028a41404eafb1a8888ab9a5bffd31604"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/dataset_generator.py",
+    "bytes": 3089,
+    "sha256": "5b464a19c4393ecd155b41580d85276ce224849b531b715ea7e01eeef2877185"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/evaluate_reranker.py",
+    "bytes": 2068,
+    "sha256": "4ef45a97b177759098f35687485ebb96b25bb54bd391ea3d262501ea4b6e1c92"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/reranker_service.py",
+    "bytes": 3220,
+    "sha256": "911b4f54ae58408de1a22fbcd1c611750daee9a9d221941f130870047a681e8d"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/train_neural.py",
+    "bytes": 5259,
+    "sha256": "759ec5c6d2dbf43b1a4c68610ac8b4a7ce7fc445f0d1923a2fc887efb37c603e"
+  },
+  {
+    "path": "OrdoPlan/src/reranker/train_reranker.py",
+    "bytes": 1028,
+    "sha256": "f006767295a671d95d8edc1cc95c0f7b1235f7fee3af2767bfef17187af68723"
+  },
+  {
+    "path": "OrdoPlan/src/schemas/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/schemas/pydantic_models.py",
+    "bytes": 4277,
+    "sha256": "10118136e8699eb740b46e02d5e00702080af569611eb05c17fc3d57d989df33"
+  },
+  {
+    "path": "OrdoPlan/src/schemas/state.py",
+    "bytes": 117,
+    "sha256": "60f0003d7b24bb0cdf83f85c87d540413af711bf3a493b951bd8d10045222df5"
+  },
+  {
+    "path": "OrdoPlan/src/solver/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/solver/baselines.py",
+    "bytes": 2046,
+    "sha256": "1ac151aeae07e822fbdcf4fd7d7bd047e1ae756b15e0c09f15daf1f22a731098"
+  },
+  {
+    "path": "OrdoPlan/src/solver/checker.py",
+    "bytes": 4436,
+    "sha256": "2e1b446a0123c4e41bcdc768240deb3cce930ce45aceb11ebec8476d246835aa"
+  },
+  {
+    "path": "OrdoPlan/src/solver/cp_sat.py",
+    "bytes": 7527,
+    "sha256": "9caa0b68aeea2b1abada31b6f75b0375f070a5bf0a211f5779a6531f6fa4e6cf"
+  },
+  {
+    "path": "OrdoPlan/src/storage/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/storage/store.py",
+    "bytes": 9003,
+    "sha256": "5d14b63fb6042f90da9cada4df46a472c6ca770e3b9a34a8595975633f8e348b"
+  },
+  {
+    "path": "OrdoPlan/src/ui/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "OrdoPlan/src/ui/app.py",
+    "bytes": 18258,
+    "sha256": "3421e6fbe1a4db4ab4fa4c1e4942b6ff63f9554bebc38c3cce65a8c4c50faf33"
+  },
+  {
+    "path": "OrdoPlan/tests/conftest.py",
+    "bytes": 497,
+    "sha256": "4824904d0bcf80c4699bb5d9b7c793a8da9eaa74ff8e56514927d24cfafa4540"
+  },
+  {
+    "path": "OrdoPlan/tests/test_api_endpoints.py",
+    "bytes": 5665,
+    "sha256": "6b630c9108b6d564ba99d52961b0b8618f6b586cb229b448892908bc0c2e8d81"
+  },
+  {
+    "path": "OrdoPlan/tests/test_documents.py",
+    "bytes": 3772,
+    "sha256": "d050f5d060c004049a9a11a4f573ff1e83c45d3ab0d4f759e19408612c618696"
+  },
+  {
+    "path": "OrdoPlan/tests/test_security.py",
+    "bytes": 4997,
+    "sha256": "c0a449064a7254a5af946ab6ae0f6ec115963800c265635bacdb67e7f71a4537"
+  },
+  {
+    "path": "OrdoPlan/tests/test_solver.py",
+    "bytes": 4758,
+    "sha256": "6fecf15baf0b9583d9dc2f3bd727de4cf50a157ae4115b22cc40d91ce6e37c79"
+  },
+  {
+    "path": "OrdoPlan/tests/test_ui.py",
+    "bytes": 1665,
+    "sha256": "cdbb33d89baa619f7d3693d0a0dc7c59dd717fc505d1efe1c33eff9cacb8a4a8"
+  },
+  {
+    "path": "OrdoPlan/livrables/OrdoPlan_Rapport_Final.pdf",
+    "bytes": 370989,
+    "sha256": "9bfec7df609f3ebb522b00bf62f4c6ab971a16c0708c47b11e32d891babbed7b"
+  },
+  {
+    "path": "OrdoPlan/livrables/OrdoPlan_Rapport_Final.docx",
+    "bytes": 59970,
+    "sha256": "5b13a36916050c6bf57e27e64abebdae443fbb490e6b49a45e0623f58bf0b9f7"
+  },
+  {
+    "path": "OrdoPlan/livrables/OrdoPlan_Soutenance.pdf",
+    "bytes": 344409,
+    "sha256": "6c530cb102cdf88f2a3547a926d1eaa33e629265d4fd81ab1a99454db12c23a0"
+  },
+  {
+    "path": "OrdoPlan/livrables/OrdoPlan_Soutenance.pptx",
+    "bytes": 286262,
+    "sha256": "6421355f1b85dad2eaa8ac6dd967aa40ef5a99e3638400d2c18e7359880a77bf"
+  }
+]

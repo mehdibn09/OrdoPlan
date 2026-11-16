@@ -1,0 +1,1062 @@
+{
+  "status": "passed",
+  "transport": "HTTP FastAPI + MCP Streamable HTTP réel",
+  "breakdown_start_minutes": 240,
+  "breakdown_duration": 180,
+  "initial": {
+    "status": "proposed",
+    "answer": "Optimalité lexicographique démontrée. 0 OF en retard, 0 minutes de retard pondéré. Fin à 13:30. 0 OF déplacés par rapport à la référence.",
+    "citations": [
+      {
+        "document_id": "publication_cnc_a",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Machine CNC-A. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord."
+      },
+      {
+        "document_id": "publication_cnc_b",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Machine CNC-B. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord."
+      },
+      {
+        "document_id": "publication_tour_c",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Machine TOUR-C. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord."
+      },
+      {
+        "document_id": "regles_reglage",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Changement ALU vers ACIER : 30 minutes. Changement ACIER vers ALU : 20 minutes. Une même famille nécessite 0 minute. Le réglage occupe la machine immédiatement avant la production. Les outillages et opérateurs sont réservés durant la production seulement ; cette simplification doit être validée en atelier."
+      },
+      {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-101. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-102. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 16, durée opératoire 80 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-103. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 11, durée opératoire 55 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-104. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 18, durée opératoire 90 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-105. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 14, durée opératoire 70 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-106. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-107. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 17, durée opératoire 85 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-108. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 10, durée opératoire 50 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-101",
+        "version": "1.0",
+        "excerpt": "OF-101 REF-101 quantité 13 échéance minute 210 disponibilité matière minute 0, priorité 1.\nOF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1.\nOF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1.\nOF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1.\nOF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1.\nOF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1.\nOF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1.\nOF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-102",
+        "version": "1.0",
+        "excerpt": "OF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-103",
+        "version": "1.0",
+        "excerpt": "OF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-104",
+        "version": "1.0",
+        "excerpt": "OF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-105",
+        "version": "1.0",
+        "excerpt": "OF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-106",
+        "version": "1.0",
+        "excerpt": "OF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-107",
+        "version": "1.0",
+        "excerpt": "OF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-108",
+        "version": "1.0",
+        "excerpt": "OF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      }
+    ],
+    "tool_results": [
+      {
+        "tool": "get_open_orders",
+        "workshop_id": "ATELIER-1",
+        "count": 8
+      }
+    ],
+    "uncertainties": [],
+    "clarification_question": null,
+    "proposed_action": {
+      "type": "publish_schedule",
+      "draft_id": "3cd0a81dff1b973b4531ac12e8ea1bbf",
+      "hash": "2fe518e1220147a5481baec97ca0ea554fd4a41dbd7dc281d18f491c1ae36963",
+      "approval_required": true,
+      "thread_id": "813a2014-54e9-4af4-aeb1-76ababc68e67"
+    },
+    "schedule": {
+      "status": "OPTIMAL",
+      "operations": [
+        {
+          "order_id": "OF-101",
+          "machine": "CNC-A",
+          "start": 0,
+          "end": 65,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-102",
+          "machine": "CNC-A",
+          "start": 95,
+          "end": 175,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-106",
+          "machine": "CNC-A",
+          "start": 175,
+          "end": 240,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-104",
+          "machine": "CNC-A",
+          "start": 240,
+          "end": 330,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-103",
+          "machine": "CNC-B",
+          "start": 0,
+          "end": 55,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-108",
+          "machine": "CNC-B",
+          "start": 85,
+          "end": 135,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-107",
+          "machine": "CNC-B",
+          "start": 155,
+          "end": 240,
+          "setup": 20
+        },
+        {
+          "order_id": "OF-105",
+          "machine": "CNC-B",
+          "start": 240,
+          "end": 310,
+          "setup": 0
+        }
+      ],
+      "weighted_tardiness": 0,
+      "makespan": 330,
+      "stability": 0,
+      "primary_bound": 0.0,
+      "elapsed_seconds": 0.10297212900059094,
+      "violations": [],
+      "solver_version": "ortools-9.15.6755",
+      "instance_id": "demo"
+    },
+    "diff": {
+      "moved_count": 0,
+      "added_count": 8,
+      "changes": [
+        {
+          "order_id": "OF-101",
+          "before": null,
+          "after": {
+            "order_id": "OF-101",
+            "machine": "CNC-A",
+            "start": 0,
+            "end": 65,
+            "setup": 0
+          }
+        },
+        {
+          "order_id": "OF-102",
+          "before": null,
+          "after": {
+            "order_id": "OF-102",
+            "machine": "CNC-A",
+            "start": 95,
+            "end": 175,
+            "setup": 30
+          }
+        },
+        {
+          "order_id": "OF-106",
+          "before": null,
+          "after": {
+            "order_id": "OF-106",
+            "machine": "CNC-A",
+            "start": 175,
+            "end": 240,
+            "setup": 0
+          }
+        },
+        {
+          "order_id": "OF-104",
+          "before": null,
+          "after": {
+            "order_id": "OF-104",
+            "machine": "CNC-A",
+            "start": 240,
+            "end": 330,
+            "setup": 0
+          }
+        },
+        {
+          "order_id": "OF-103",
+          "before": null,
+          "after": {
+            "order_id": "OF-103",
+            "machine": "CNC-B",
+            "start": 0,
+            "end": 55,
+            "setup": 0
+          }
+        },
+        {
+          "order_id": "OF-108",
+          "before": null,
+          "after": {
+            "order_id": "OF-108",
+            "machine": "CNC-B",
+            "start": 85,
+            "end": 135,
+            "setup": 30
+          }
+        },
+        {
+          "order_id": "OF-107",
+          "before": null,
+          "after": {
+            "order_id": "OF-107",
+            "machine": "CNC-B",
+            "start": 155,
+            "end": 240,
+            "setup": 20
+          }
+        },
+        {
+          "order_id": "OF-105",
+          "before": null,
+          "after": {
+            "order_id": "OF-105",
+            "machine": "CNC-B",
+            "start": 240,
+            "end": 310,
+            "setup": 0
+          }
+        }
+      ],
+      "delays": []
+    },
+    "trace": [
+      "verify_access",
+      "read_erp_and_validate_fields",
+      "hybrid_retrieval_rrf_reranking",
+      "solve_cp_sat",
+      "independent_constraint_check",
+      "explain_and_verify_computed_facts"
+    ],
+    "versions": {
+      "application": "1.0.0",
+      "prompt": "v1",
+      "reranker": "local-v1",
+      "index": "corpus-v1",
+      "model": "ocr",
+      "solver": "ortools-9.15.6755",
+      "instance_schema": "v1",
+      "retrieval": "local",
+      "instance": "demo"
+    }
+  },
+  "breakdown": {
+    "status": "proposed",
+    "answer": "Optimalité lexicographique démontrée. 0 OF en retard, 0 minutes de retard pondéré. Fin à 15:30. 2 OF déplacés par rapport à la référence.",
+    "citations": [
+      {
+        "document_id": "regles_reglage",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Changement ALU vers ACIER : 30 minutes. Changement ACIER vers ALU : 20 minutes. Une même famille nécessite 0 minute. Le réglage occupe la machine immédiatement avant la production. Les outillages et opérateurs sont réservés durant la production seulement ; cette simplification doit être validée en atelier."
+      },
+      {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-101. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-102. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 16, durée opératoire 80 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-103. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 11, durée opératoire 55 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-104. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 18, durée opératoire 90 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-105. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 14, durée opératoire 70 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-106. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-107. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 17, durée opératoire 85 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-108. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 10, durée opératoire 50 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-101",
+        "version": "1.0",
+        "excerpt": "OF-101 REF-101 quantité 13 échéance minute 210 disponibilité matière minute 0, priorité 1.\nOF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1.\nOF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1.\nOF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1.\nOF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1.\nOF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1.\nOF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1.\nOF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-102",
+        "version": "1.0",
+        "excerpt": "OF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-103",
+        "version": "1.0",
+        "excerpt": "OF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-104",
+        "version": "1.0",
+        "excerpt": "OF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-105",
+        "version": "1.0",
+        "excerpt": "OF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-106",
+        "version": "1.0",
+        "excerpt": "OF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-107",
+        "version": "1.0",
+        "excerpt": "OF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-108",
+        "version": "1.0",
+        "excerpt": "OF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      }
+    ],
+    "tool_results": [
+      {
+        "tool": "get_open_orders",
+        "workshop_id": "ATELIER-1",
+        "count": 8
+      },
+      {
+        "tool": "get_machine_status",
+        "machine_id": "CNC-B",
+        "state": "available",
+        "unavailable": [],
+        "source": "MES de démonstration ; les photos sont des observations distinctes"
+      }
+    ],
+    "uncertainties": [],
+    "clarification_question": null,
+    "proposed_action": {
+      "type": "publish_schedule",
+      "draft_id": "0160bc592d64c17a6570c9ef6ed4b991",
+      "hash": "822365766fb9afffbfc52ce70cb9ce4070674105a864f329df303eee41e7fee4",
+      "approval_required": true,
+      "thread_id": "fe3620d6-1628-4c4f-96f1-a392592367c9"
+    },
+    "schedule": {
+      "status": "OPTIMAL",
+      "operations": [
+        {
+          "order_id": "OF-101",
+          "machine": "CNC-A",
+          "start": 0,
+          "end": 65,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-102",
+          "machine": "CNC-A",
+          "start": 95,
+          "end": 175,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-106",
+          "machine": "CNC-A",
+          "start": 175,
+          "end": 240,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-105",
+          "machine": "CNC-A",
+          "start": 260,
+          "end": 330,
+          "setup": 20
+        },
+        {
+          "order_id": "OF-104",
+          "machine": "CNC-A",
+          "start": 360,
+          "end": 450,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-103",
+          "machine": "CNC-B",
+          "start": 0,
+          "end": 55,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-108",
+          "machine": "CNC-B",
+          "start": 85,
+          "end": 135,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-107",
+          "machine": "CNC-B",
+          "start": 155,
+          "end": 240,
+          "setup": 20
+        }
+      ],
+      "weighted_tardiness": 0,
+      "makespan": 450,
+      "stability": 200,
+      "primary_bound": 0.0,
+      "elapsed_seconds": 0.016458059999422403,
+      "violations": [],
+      "solver_version": "ortools-9.15.6755",
+      "instance_id": "demo-breakdown"
+    },
+    "diff": {
+      "moved_count": 2,
+      "added_count": 0,
+      "changes": [
+        {
+          "order_id": "OF-105",
+          "before": {
+            "order_id": "OF-105",
+            "machine": "CNC-B",
+            "start": 240,
+            "end": 310,
+            "setup": 0
+          },
+          "after": {
+            "order_id": "OF-105",
+            "machine": "CNC-A",
+            "start": 260,
+            "end": 330,
+            "setup": 20
+          }
+        },
+        {
+          "order_id": "OF-104",
+          "before": {
+            "order_id": "OF-104",
+            "machine": "CNC-A",
+            "start": 240,
+            "end": 330,
+            "setup": 0
+          },
+          "after": {
+            "order_id": "OF-104",
+            "machine": "CNC-A",
+            "start": 360,
+            "end": 450,
+            "setup": 30
+          }
+        }
+      ],
+      "delays": []
+    },
+    "trace": [
+      "verify_access",
+      "read_erp_and_validate_fields",
+      "hybrid_retrieval_rrf_reranking",
+      "solve_cp_sat",
+      "independent_constraint_check",
+      "explain_and_verify_computed_facts"
+    ],
+    "versions": {
+      "application": "1.0.0",
+      "prompt": "v1",
+      "reranker": "local-v1",
+      "index": "corpus-v1",
+      "model": "ocr",
+      "solver": "ortools-9.15.6755",
+      "instance_schema": "v1",
+      "retrieval": "local",
+      "instance": "demo-breakdown"
+    }
+  },
+  "urgent": {
+    "status": "proposed",
+    "answer": "Optimalité lexicographique démontrée. 2 OF en retard, 60 minutes de retard pondéré. Fin à 16:30. 2 OF déplacés par rapport à la référence. OF-105 : retard de 30 minutes. OF-104 : retard de 30 minutes.",
+    "citations": [
+      {
+        "document_id": "regles_reglage",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Changement ALU vers ACIER : 30 minutes. Changement ACIER vers ALU : 20 minutes. Une même famille nécessite 0 minute. Le réglage occupe la machine immédiatement avant la production. Les outillages et opérateurs sont réservés durant la production seulement ; cette simplification doit être validée en atelier."
+      },
+      {
+        "document_id": "fiche_cnc_a",
+        "page": 1,
+        "element_id": "fiche",
+        "version": "1.0",
+        "excerpt": "CNC-A appartient à la famille CNC. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée."
+      },
+      {
+        "document_id": "fiche_cnc_b",
+        "page": 1,
+        "element_id": "fiche",
+        "version": "1.0",
+        "excerpt": "CNC-B appartient à la famille CNC. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée."
+      },
+      {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-101. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-102. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 16, durée opératoire 80 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-103. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 11, durée opératoire 55 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-104. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 18, durée opératoire 90 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-105. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 14, durée opératoire 70 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-106. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-107. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 17, durée opératoire 85 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-108. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 10, durée opératoire 50 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-101",
+        "version": "1.0",
+        "excerpt": "OF-101 REF-101 quantité 13 échéance minute 210 disponibilité matière minute 0, priorité 1.\nOF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1.\nOF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1.\nOF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1.\nOF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1.\nOF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1.\nOF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1.\nOF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-102",
+        "version": "1.0",
+        "excerpt": "OF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-103",
+        "version": "1.0",
+        "excerpt": "OF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-104",
+        "version": "1.0",
+        "excerpt": "OF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-105",
+        "version": "1.0",
+        "excerpt": "OF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-106",
+        "version": "1.0",
+        "excerpt": "OF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-107",
+        "version": "1.0",
+        "excerpt": "OF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-108",
+        "version": "1.0",
+        "excerpt": "OF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1."
+      },
+      {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0",
+        "excerpt": "Référence REF-109. Famille ALU. Quantité 12, temps unitaire 5 minutes, durée 60 minutes. Machines CNC-A et CNC-B. Aucun outil partagé. Échéance minute 330, matière disponible minute 150, priorité 3."
+      }
+    ],
+    "tool_results": [
+      {
+        "tool": "get_open_orders",
+        "workshop_id": "ATELIER-1",
+        "count": 8
+      }
+    ],
+    "uncertainties": [],
+    "clarification_question": null,
+    "proposed_action": {
+      "type": "publish_schedule",
+      "draft_id": "313e7b218e265afa78a90c4a27888175",
+      "hash": "4d9bc9cdd8ddcb06ecc1841288d14c1fa6559f80e8cad9816a04a3b92162e7a6",
+      "approval_required": true,
+      "thread_id": "66ef7d07-887f-421d-9bb1-05c999f9ed4f"
+    },
+    "schedule": {
+      "status": "OPTIMAL",
+      "operations": [
+        {
+          "order_id": "OF-101",
+          "machine": "CNC-A",
+          "start": 0,
+          "end": 65,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-102",
+          "machine": "CNC-A",
+          "start": 95,
+          "end": 175,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-106",
+          "machine": "CNC-A",
+          "start": 175,
+          "end": 240,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-109",
+          "machine": "CNC-A",
+          "start": 260,
+          "end": 320,
+          "setup": 20
+        },
+        {
+          "order_id": "OF-105",
+          "machine": "CNC-A",
+          "start": 320,
+          "end": 390,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-104",
+          "machine": "CNC-A",
+          "start": 420,
+          "end": 510,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-103",
+          "machine": "CNC-B",
+          "start": 0,
+          "end": 55,
+          "setup": 0
+        },
+        {
+          "order_id": "OF-108",
+          "machine": "CNC-B",
+          "start": 85,
+          "end": 135,
+          "setup": 30
+        },
+        {
+          "order_id": "OF-107",
+          "machine": "CNC-B",
+          "start": 155,
+          "end": 240,
+          "setup": 20
+        }
+      ],
+      "weighted_tardiness": 60,
+      "makespan": 510,
+      "stability": 120,
+      "primary_bound": 60.0,
+      "elapsed_seconds": 0.024487144999511656,
+      "violations": [],
+      "solver_version": "ortools-9.15.6755",
+      "instance_id": "demo-breakdown-urgent"
+    },
+    "diff": {
+      "moved_count": 2,
+      "added_count": 1,
+      "changes": [
+        {
+          "order_id": "OF-109",
+          "before": null,
+          "after": {
+            "order_id": "OF-109",
+            "machine": "CNC-A",
+            "start": 260,
+            "end": 320,
+            "setup": 20
+          }
+        },
+        {
+          "order_id": "OF-105",
+          "before": {
+            "order_id": "OF-105",
+            "machine": "CNC-A",
+            "start": 260,
+            "end": 330,
+            "setup": 20
+          },
+          "after": {
+            "order_id": "OF-105",
+            "machine": "CNC-A",
+            "start": 320,
+            "end": 390,
+            "setup": 0
+          }
+        },
+        {
+          "order_id": "OF-104",
+          "before": {
+            "order_id": "OF-104",
+            "machine": "CNC-A",
+            "start": 360,
+            "end": 450,
+            "setup": 30
+          },
+          "after": {
+            "order_id": "OF-104",
+            "machine": "CNC-A",
+            "start": 420,
+            "end": 510,
+            "setup": 30
+          }
+        }
+      ],
+      "delays": [
+        {
+          "order_id": "OF-105",
+          "minutes": 30,
+          "weighted_minutes": 30
+        },
+        {
+          "order_id": "OF-104",
+          "minutes": 30,
+          "weighted_minutes": 30
+        }
+      ]
+    },
+    "trace": [
+      "verify_access",
+      "read_erp_and_validate_fields",
+      "hybrid_retrieval_rrf_reranking",
+      "solve_cp_sat",
+      "independent_constraint_check",
+      "explain_and_verify_computed_facts"
+    ],
+    "versions": {
+      "application": "1.0.0",
+      "prompt": "v1",
+      "reranker": "local-v1",
+      "index": "corpus-v1",
+      "model": "ocr",
+      "solver": "ortools-9.15.6755",
+      "instance_schema": "v1",
+      "retrieval": "local",
+      "instance": "demo-breakdown-urgent"
+    }
+  },
+  "publication": {
+    "publication_id": 1,
+    "idempotent": false
+  },
+  "idempotent_retry": {
+    "publication_id": 1,
+    "idempotent": true
+  },
+  "ambiguous": {
+    "ocr": "",
+    "observation": {
+      "kind": "unknown"
+    },
+    "mode": "ocr",
+    "needs_validation": true,
+    "uncertainties": [
+      "Profil CPU : OCR seul ; validation humaine obligatoire avant calcul",
+      "Photographie illisible ou équipement non reconnu"
+    ],
+    "vlm": null
+  },
+  "cross_workshop_denied": true,
+  "injection_refused": true,
+  "measurements": [
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "status": 200,
+      "seconds": 0.10015063899936649
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 200,
+      "seconds": 0.051545923999583465
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 200,
+      "seconds": 0.277296571000079
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 200,
+      "seconds": 0.2348163740007294
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 200,
+      "seconds": 0.15980199099976744
+    },
+    {
+      "method": "POST",
+      "path": "/drafts/313e7b218e265afa78a90c4a27888175/publish",
+      "status": 422,
+      "seconds": 0.09977142699972319
+    },
+    {
+      "method": "POST",
+      "path": "/drafts/313e7b218e265afa78a90c4a27888175/approve",
+      "status": 200,
+      "seconds": 0.008060432000092987
+    },
+    {
+      "method": "POST",
+      "path": "/drafts/313e7b218e265afa78a90c4a27888175/publish",
+      "status": 200,
+      "seconds": 0.13908268399973167
+    },
+    {
+      "method": "POST",
+      "path": "/drafts/313e7b218e265afa78a90c4a27888175/publish",
+      "status": 200,
+      "seconds": 0.11416381000071851
+    },
+    {
+      "method": "POST",
+      "path": "/analyze",
+      "status": 200,
+      "seconds": 0.3362696980002511
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 403,
+      "seconds": 0.0019832660000247415
+    },
+    {
+      "method": "GET",
+      "path": "/publications",
+      "status": 200,
+      "seconds": 0.0018756070003291825
+    },
+    {
+      "method": "POST",
+      "path": "/assistant",
+      "status": 200,
+      "seconds": 0.012095654999939143
+    },
+    {
+      "method": "GET",
+      "path": "/publications",
+      "status": 200,
+      "seconds": 0.0017600770006538369
+    }
+  ],
+  "latency_seconds": {
+    "median": 0.09996103299954484,
+    "p95": 0.2979371654501392
+  },
+  "scope": "Atelier fictif, profil CPU ; aucun service Telegram réel et aucune machine physique."
+}

@@ -1,0 +1,17 @@
+# Même application dans un conteneur, Qdrant embarqué, pour la démonstration locale.
+name: ordoplan-compact
+services:
+  ordoplan:
+    build: .
+    image: ordoplan:1.0.0
+    command: sh scripts/container_smoke.sh
+    ports:
+      - '127.0.0.1:8000:8000'
+      - '127.0.0.1:8501:8501'
+    volumes:
+      - runtime:/app/.runtime
+    mem_limit: 3g
+    cpus: 2
+    restart: unless-stopped
+volumes:
+  runtime:

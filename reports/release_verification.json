@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "unit_and_api_tests": 68,
+  "evaluation_scenarios": 150,
+  "evaluation_passed": 150,
+  "solver_violations": 0,
+  "dependency_vulnerabilities": 0,
+  "browser": "passed; screenshots and JSON retained",
+  "container": "68 tests and real HTTP/MCP workflow passed as non-root during image build",
+  "separate_services_compose": "configuration valid; full topology not started",
+  "neural_models": "local semantic/CLIP/reranker smoke test passed; VLM output insufficient, validation required",
+  "telegram": "identity and command code delivered; real provider session not performed",
+  "dataset_expert_review": false,
+  "field_interview": false,
+  "gpu_benchmark": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "mode": "embeddings multilingues + CLIP texte-image multilingue + reranker neuronal adapté",
+  "elapsed_seconds_cold_start": 36.153024813999764,
+  "results": [
+    {
+      "document_id": "regles_reglage",
+      "page": 1
+    },
+    {
+      "document_id": "gamme_108",
+      "page": 1
+    },
+    {
+      "document_id": "gamme_106",
+      "page": 2
+    },
+    {
+      "document_id": "gamme_106",
+      "page": 1
+    },
+    {
+      "document_id": "gamme_102",
+      "page": 2
+    }
+  ],
+  "scope": "Une requête, chargement à froid, CPU 2 threads. Pas un benchmark de latence."
+}

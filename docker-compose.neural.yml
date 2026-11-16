@@ -1,0 +1,21 @@
+# À utiliser après extraction du pack de modèles dans ./models.
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.neural
+    image: ordoplan-neural:1.0.0
+    mem_limit: 7g
+    environment:
+      ORDOPLAN_MODEL_MODE: vlm
+      ORDOPLAN_VLM_PATH: /app/models/vlm
+      ORDOPLAN_RETRIEVAL: semantic
+      ORDOPLAN_EMBEDDING_PATH: /app/models/embedding
+      ORDOPLAN_RERANKER: neural
+      ORDOPLAN_RERANKER_PATH: /app/models/reranker_adapted
+      ORDOPLAN_CLIP_TEXT_PATH: /app/models/clip_text
+      ORDOPLAN_CLIP_IMAGE_PATH: /app/models/clip_image
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+    volumes:
+      - ./models:/app/models:ro

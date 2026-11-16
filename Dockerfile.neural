@@ -1,0 +1,5 @@
+FROM ordoplan:1.0.0
+USER root
+COPY requirements-neural.txt /app/
+RUN pip install -r requirements-neural.txt
+USER ordoplan

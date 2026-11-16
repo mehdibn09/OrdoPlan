@@ -1,0 +1,37 @@
+{
+  "base_model": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+  "dataset_sha256": "1750f2d8abbcb0e7f6fa5e90fe54be89a51e1458725f367f0f152a8c10b9d1b9",
+  "train_triplets": 600,
+  "validation_triplets": 200,
+  "test_queries": 200,
+  "epochs": 1,
+  "batch_size": 8,
+  "max_length": 128,
+  "seed": 2026,
+  "trainable_parameters": 3697153,
+  "pretrained": {
+    "Recall@5": 1.0,
+    "nDCG@5": 1.0,
+    "MRR@10": 1.0
+  },
+  "adapted": {
+    "Recall@5": 1.0,
+    "nDCG@5": 1.0,
+    "MRR@10": 1.0
+  },
+  "validation_losses": [
+    0.25124895572662354
+  ],
+  "training_loss_mean": 0.21620172932511195,
+  "elapsed_seconds": 288.6919785780001,
+  "hardware": "CPU, 2 threads, pas de GPU",
+  "limitations": "Données synthétiques, séparation par document, titres explicites. Aucune validation experte ou revendication de généralisation. L'amélioration n'est pas garantie.",
+  "training_environment": {
+    "torch": "2.9.0+cpu",
+    "transformers": "4.57.1",
+    "sentence_transformers": "5.1.2",
+    "python": "3.12.14"
+  },
+  "inference_after_security_updates": "Poids adaptés rechargés et essayés avec transformers 5.10.0 et sentence-transformers 5.6.0 ; voir semantic_smoke.json."
+}

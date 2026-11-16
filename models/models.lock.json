@@ -1,0 +1,40 @@
+{
+  "vlm": {
+    "repository": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "revision": "d039ab0d4b9311b617e8ffec1d06c8464364aeb3",
+    "license": "apache-2.0",
+    "local_path": "models/vlm"
+  },
+  "embedding": {
+    "repository": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "license": "apache-2.0",
+    "local_path": "models/embedding"
+  },
+  "reranker": {
+    "repository": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "license": "apache-2.0",
+    "local_path": "models/reranker"
+  },
+  "clip_text": {
+    "repository": "sentence-transformers/clip-ViT-B-32-multilingual-v1",
+    "revision": "58edf8cada9e398793dca955574a48cbb7f18be2",
+    "license": "apache-2.0",
+    "local_path": "models/clip_text"
+  },
+  "clip_image": {
+    "repository": "sentence-transformers/clip-ViT-B-32",
+    "revision": "327ab6726d33c0e22f920c83f2ff9e4bd38ca37f",
+    "license": null,
+    "local_path": "models/clip_image"
+  },
+  "reranker_adapted": {
+    "base_repository": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "base_revision": "1427fd652930e4ba29e8149678df786c240d8825",
+    "artifact": "models/reranker_adapted",
+    "training_data_sha256": "1750f2d8abbcb0e7f6fa5e90fe54be89a51e1458725f367f0f152a8c10b9d1b9",
+    "license": "apache-2.0",
+    "provenance": "reports/neural_reranker_metrics.json"
+  }
+}

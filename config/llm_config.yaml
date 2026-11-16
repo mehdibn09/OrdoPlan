@@ -1,0 +1,12 @@
+inference: local_only
+default_mode: ocr
+vlm:
+  model: HuggingFaceTB/SmolVLM-256M-Instruct
+  revision_lock: models/models.lock.json
+  max_new_tokens: 96
+  timeout_seconds: 35
+  max_input_dimension: 1280
+  validation: human_required
+production_candidate:
+  model: Qwen/Qwen2.5-VL-7B-Instruct
+  status: non téléchargé, non mesuré ; cible GPU à évaluer

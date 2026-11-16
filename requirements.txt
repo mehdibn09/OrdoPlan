@@ -1,0 +1,2 @@
+# Dépendances transitives figées pour Python 3.12, générées avec pip-tools.
+-r requirements.lock.txt

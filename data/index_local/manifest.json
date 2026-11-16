@@ -1,0 +1,8 @@
+{
+  "backend": "Qdrant local",
+  "qdrant_client": "1.16.0",
+  "encoder": "HashingVectorizer char_wb 3-5",
+  "dimension": 384,
+  "corpus_sha256": "fded8b803bb4193a967520f46ce6051d98072de09600d3d704f23e7d344d7825",
+  "rebuild": "python -m scripts.ingest"
+}

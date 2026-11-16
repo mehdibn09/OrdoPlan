@@ -1,0 +1,1655 @@
+[
+  {
+    "document_id": "fiche_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "fiche",
+    "title": "Fiche machine CNC-A",
+    "text": "CNC-A appartient à la famille CNC. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_cnc_a_p1.png",
+    "pdf": "data/corpus/fiche_cnc_a.pdf",
+    "sha256": "44cb7846d3c0eca35b49f491178b778b42c074dd5c607111966b336d881739ff"
+  },
+  {
+    "document_id": "fiche_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Fiche machine CNC-A",
+    "text": "Traçabilité — Fiche machine CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_cnc_a_p2.png",
+    "pdf": "data/corpus/fiche_cnc_a.pdf",
+    "sha256": "239db2cf8395e5e9d0c252067dcdf61ac161369efc7fc437b0bfdbdfbfc4591d"
+  },
+  {
+    "document_id": "fiche_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "fiche",
+    "title": "Fiche machine CNC-B",
+    "text": "CNC-B appartient à la famille CNC. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_cnc_b_p1.png",
+    "pdf": "data/corpus/fiche_cnc_b.pdf",
+    "sha256": "783b141100b5c5310e788257cdc0d13a6312bdff95b80639472c275d8ccef913"
+  },
+  {
+    "document_id": "fiche_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Fiche machine CNC-B",
+    "text": "Traçabilité — Fiche machine CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_cnc_b_p2.png",
+    "pdf": "data/corpus/fiche_cnc_b.pdf",
+    "sha256": "5f77f6db73f339d5133eb7141a2407ce466d5d761519fe44de236e6f1f92e464"
+  },
+  {
+    "document_id": "fiche_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "fiche",
+    "title": "Fiche machine TOUR-C",
+    "text": "TOUR-C appartient à la famille TOUR. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_tour_c_p1.png",
+    "pdf": "data/corpus/fiche_tour_c.pdf",
+    "sha256": "1f231afc41c6d24920603b540980c6ece9618a35bb1be9e51758e451f38bdbd6"
+  },
+  {
+    "document_id": "fiche_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Fiche machine TOUR-C",
+    "text": "Traçabilité — Fiche machine TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_tour_c_p2.png",
+    "pdf": "data/corpus/fiche_tour_c.pdf",
+    "sha256": "a906cb0ba4501c5e32562510dcab2038995bd91638128776fbdd4de592e34b29"
+  },
+  {
+    "document_id": "fiche_tour_d",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "fiche",
+    "title": "Fiche machine TOUR-D",
+    "text": "TOUR-D appartient à la famille TOUR. Une opération à la fois. Famille initiale ALU. Temps disponibles 08:00 à 20:00. Les indisponibilités empêchent production et réglage. Aucune commande de pilotage machine n'est exposée.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_tour_d_p1.png",
+    "pdf": "data/corpus/fiche_tour_d.pdf",
+    "sha256": "9894bccd3d9cbfc4c6b72c87fc6a369fe5bef26dcd79b855bf22fd68b49d06cb"
+  },
+  {
+    "document_id": "fiche_tour_d",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Fiche machine TOUR-D",
+    "text": "Traçabilité — Fiche machine TOUR-D. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/fiche_tour_d_p2.png",
+    "pdf": "data/corpus/fiche_tour_d.pdf",
+    "sha256": "5352d1554c391e6171717dbab6fac1cbd581ac04ada05ecd3c4e279cd0c325bf"
+  },
+  {
+    "document_id": "regles_reglage",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Procédure de changement de série",
+    "text": "Changement ALU vers ACIER : 30 minutes. Changement ACIER vers ALU : 20 minutes. Une même famille nécessite 0 minute. Le réglage occupe la machine immédiatement avant la production. Les outillages et opérateurs sont réservés durant la production seulement ; cette simplification doit être validée en atelier.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/regles_reglage_p1.png",
+    "pdf": "data/corpus/regles_reglage.pdf",
+    "sha256": "0af0e2cdcff9c794069349421861bba791d5fe37cf33e2bc120fff7b953b0a0b"
+  },
+  {
+    "document_id": "regles_reglage",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Procédure de changement de série",
+    "text": "Traçabilité — Procédure de changement de série. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/regles_reglage_p2.png",
+    "pdf": "data/corpus/regles_reglage.pdf",
+    "sha256": "c2c7f41771ce2c91f163a94648a790300f71f49b13ebdd1d7c2a59c7e5ba5906"
+  },
+  {
+    "document_id": "gamme_101",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-101 — famille ALU",
+    "text": "Référence REF-101. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_101_p1.png",
+    "pdf": "data/corpus/gamme_101.pdf",
+    "sha256": "d85a8bc15ce9472f0106aef44d63f4ffd19d49ac644b3bec5785c552fe51ef5c"
+  },
+  {
+    "document_id": "gamme_101",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-101 — famille ALU",
+    "text": "Traçabilité — Gamme REF-101 — famille ALU. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_101_p2.png",
+    "pdf": "data/corpus/gamme_101.pdf",
+    "sha256": "42264fa2c26e294256482fb22357e61d04bb2eb68b34ee6ec99c0a9f5beab5ce"
+  },
+  {
+    "document_id": "gamme_102",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-102 — famille ACIER",
+    "text": "Référence REF-102. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 16, durée opératoire 80 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_102_p1.png",
+    "pdf": "data/corpus/gamme_102.pdf",
+    "sha256": "019f21d651296a4411551c5cea5b26df74a37fed622d067c4320f1635546613f"
+  },
+  {
+    "document_id": "gamme_102",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-102 — famille ACIER",
+    "text": "Traçabilité — Gamme REF-102 — famille ACIER. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_102_p2.png",
+    "pdf": "data/corpus/gamme_102.pdf",
+    "sha256": "c7a4ca6a42d9cdeb7c8d9ff65815319fe48ec65c7fb80d155ce695ae9f0e05ef"
+  },
+  {
+    "document_id": "gamme_103",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-103 — famille ALU",
+    "text": "Référence REF-103. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 11, durée opératoire 55 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_103_p1.png",
+    "pdf": "data/corpus/gamme_103.pdf",
+    "sha256": "cdc71c02cc7bf2b3a405c8eafc062aa9d0d02a17127d415efc93b05c329a66f6"
+  },
+  {
+    "document_id": "gamme_103",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-103 — famille ALU",
+    "text": "Traçabilité — Gamme REF-103 — famille ALU. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_103_p2.png",
+    "pdf": "data/corpus/gamme_103.pdf",
+    "sha256": "7b374d7704215058796537ffabcf3c817ff0cc40b643b7616f5cab04c709e823"
+  },
+  {
+    "document_id": "gamme_104",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-104 — famille ACIER",
+    "text": "Référence REF-104. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 18, durée opératoire 90 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_104_p1.png",
+    "pdf": "data/corpus/gamme_104.pdf",
+    "sha256": "036b085c8b66012ff894fa5eccb9a6b8ffcd81590c13b570c93856796539e5d7"
+  },
+  {
+    "document_id": "gamme_104",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-104 — famille ACIER",
+    "text": "Traçabilité — Gamme REF-104 — famille ACIER. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_104_p2.png",
+    "pdf": "data/corpus/gamme_104.pdf",
+    "sha256": "425536f5d1fd19ac3a4367246b7732562b724d3c2d66f2cf58aea3a03b046003"
+  },
+  {
+    "document_id": "gamme_105",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-105 — famille ALU",
+    "text": "Référence REF-105. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 14, durée opératoire 70 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_105_p1.png",
+    "pdf": "data/corpus/gamme_105.pdf",
+    "sha256": "ecad6be41f1aa7d7a7475485ef91f5dec11cfe3c9fee060718db0e8245bbb03b"
+  },
+  {
+    "document_id": "gamme_105",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-105 — famille ALU",
+    "text": "Traçabilité — Gamme REF-105 — famille ALU. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_105_p2.png",
+    "pdf": "data/corpus/gamme_105.pdf",
+    "sha256": "9db5564ebe1a5657e4d1d026d2461f96893ac25efd1e7c6c2a98664fd1470c76"
+  },
+  {
+    "document_id": "gamme_106",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-106 — famille ACIER",
+    "text": "Référence REF-106. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 13, durée opératoire 65 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : OUTIL-UNIQUE. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_106_p1.png",
+    "pdf": "data/corpus/gamme_106.pdf",
+    "sha256": "11d6a01fe7924a28d69fa2e527179cba5f1f9cb02d72ff75f3327a2bd5709429"
+  },
+  {
+    "document_id": "gamme_106",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-106 — famille ACIER",
+    "text": "Traçabilité — Gamme REF-106 — famille ACIER. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_106_p2.png",
+    "pdf": "data/corpus/gamme_106.pdf",
+    "sha256": "2aaa26e12fdd0997ae7f2634a52d0ad92aba7c4630b0820edb4ddc62410f1613"
+  },
+  {
+    "document_id": "gamme_107",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-107 — famille ALU",
+    "text": "Référence REF-107. Famille matière ALU. Temps unitaire 5 minutes, quantité de référence 17, durée opératoire 85 minutes. Machines éligibles : CNC-A, CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_107_p1.png",
+    "pdf": "data/corpus/gamme_107.pdf",
+    "sha256": "51da691900f16dfa9e049f44d3ac188e7c0c70f14ea141a23788d0ca708229dc"
+  },
+  {
+    "document_id": "gamme_107",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-107 — famille ALU",
+    "text": "Traçabilité — Gamme REF-107 — famille ALU. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A,CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_107_p2.png",
+    "pdf": "data/corpus/gamme_107.pdf",
+    "sha256": "6a0c258ee711b42a496fac8dbc26ddf1a1f73c6fec0f9cd4b990ba8f9599bb46"
+  },
+  {
+    "document_id": "gamme_108",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme REF-108 — famille ACIER",
+    "text": "Référence REF-108. Famille matière ACIER. Temps unitaire 5 minutes, quantité de référence 10, durée opératoire 50 minutes. Machines éligibles : CNC-B. Outillage requis : standard non partagé. Le réglage dépend de la famille précédente ; voir regles_reglage.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_108_p1.png",
+    "pdf": "data/corpus/gamme_108.pdf",
+    "sha256": "544ba93c062342345210ed6810a247751c0f9e38fdbf0b414e66d73986fd218a"
+  },
+  {
+    "document_id": "gamme_108",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme REF-108 — famille ACIER",
+    "text": "Traçabilité — Gamme REF-108 — famille ACIER. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_108_p2.png",
+    "pdf": "data/corpus/gamme_108.pdf",
+    "sha256": "6db814c4d7a1461fc1eb9d5821761649b852ca2be18becf6dfc0a034d64313d1"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-101",
+    "title": "Carnet ERP de référence",
+    "text": "OF-101 REF-101 quantité 13 échéance minute 210 disponibilité matière minute 0, priorité 1.\nOF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1.\nOF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1.\nOF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1.\nOF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1.\nOF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1.\nOF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1.\nOF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Carnet ERP de référence",
+    "text": "Traçabilité — Carnet ERP de référence. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p2.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "5d66dd1ffff08f8fde13a6d33e4d79020bd180091994a2a93873e6ead14d658a"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-102",
+    "title": "Carnet ERP de référence",
+    "text": "OF-102 REF-102 quantité 16 échéance minute 240 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-103",
+    "title": "Carnet ERP de référence",
+    "text": "OF-103 REF-103 quantité 11 échéance minute 170 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-104",
+    "title": "Carnet ERP de référence",
+    "text": "OF-104 REF-104 quantité 18 échéance minute 480 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-105",
+    "title": "Carnet ERP de référence",
+    "text": "OF-105 REF-105 quantité 14 échéance minute 360 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-106",
+    "title": "Carnet ERP de référence",
+    "text": "OF-106 REF-106 quantité 13 échéance minute 460 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-107",
+    "title": "Carnet ERP de référence",
+    "text": "OF-107 REF-107 quantité 17 échéance minute 510 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "erp_orders",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "OF-108",
+    "title": "Carnet ERP de référence",
+    "text": "OF-108 REF-108 quantité 10 échéance minute 150 disponibilité matière minute 0, priorité 1.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/erp_orders_p1.png",
+    "pdf": "data/corpus/erp_orders.pdf",
+    "sha256": "e299ab25f826792c091a51e1fed91e2f85e2d1e5dd21d5117b5ae903745a9f7f"
+  },
+  {
+    "document_id": "gamme_109",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gamme urgente REF-109",
+    "text": "Référence REF-109. Famille ALU. Quantité 12, temps unitaire 5 minutes, durée 60 minutes. Machines CNC-A et CNC-B. Aucun outil partagé. Échéance minute 330, matière disponible minute 150, priorité 3.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_109_p1.png",
+    "pdf": "data/corpus/gamme_109.pdf",
+    "sha256": "cba705287a5a8012a6d0e1cdeae1f80c464efc849f085876fea863315d9f2b08"
+  },
+  {
+    "document_id": "gamme_109",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gamme urgente REF-109",
+    "text": "Traçabilité — Gamme urgente REF-109. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gamme_109_p2.png",
+    "pdf": "data/corpus/gamme_109.pdf",
+    "sha256": "c03bb5ed860bf73250a08cbf999d7038abe5cc64b5294be9ef972cad6e85f77c"
+  },
+  {
+    "document_id": "alarme_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Lecture de l'afficheur — CNC-A",
+    "text": "Machine CNC-A. Un afficheur ARRET indique un état observé, jamais la durée de l'arrêt. Si la durée est inconnue, demander une estimation humaine avant de replanifier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_cnc_a_p1.png",
+    "pdf": "data/corpus/alarme_cnc_a.pdf",
+    "sha256": "a57b7878175134343564be1be23b53fba7cd20acd4d7dffa9263088f196c7e6c"
+  },
+  {
+    "document_id": "alarme_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Lecture de l'afficheur — CNC-A",
+    "text": "Traçabilité — Lecture de l'afficheur — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_cnc_a_p2.png",
+    "pdf": "data/corpus/alarme_cnc_a.pdf",
+    "sha256": "b1b658e8385df21fb652c497c2f94b476f1488e2e64c21107eaede9cc9b09eec"
+  },
+  {
+    "document_id": "matiere_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité matière — CNC-A",
+    "text": "Machine CNC-A. La production ne démarre pas avant la réception matière confirmée dans l'ERP. Un retard matière modifie la borne de disponibilité de l'OF.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_cnc_a_p1.png",
+    "pdf": "data/corpus/matiere_cnc_a.pdf",
+    "sha256": "12ff53e4dfcfde02dd33d69eeb9155fbbb4443075b16ddfe948c4d8a16f66ef5"
+  },
+  {
+    "document_id": "matiere_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité matière — CNC-A",
+    "text": "Traçabilité — Disponibilité matière — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_cnc_a_p2.png",
+    "pdf": "data/corpus/matiere_cnc_a.pdf",
+    "sha256": "147a4e5302e4b0b56b622b2cb1d009b23d922eddc10b26f56b563a64b1375390"
+  },
+  {
+    "document_id": "operateur_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité opérateur — CNC-A",
+    "text": "Machine CNC-A. OP-01 est un pseudonyme de ressource. Une ressource unique n'exécute pas deux OF simultanément. Ses absences sont des intervalles interdits.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_cnc_a_p1.png",
+    "pdf": "data/corpus/operateur_cnc_a.pdf",
+    "sha256": "94d31e0daeaf4546e1172330eda44310d0f12fd15a7344262e5a4f0bf14f6b70"
+  },
+  {
+    "document_id": "operateur_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité opérateur — CNC-A",
+    "text": "Traçabilité — Disponibilité opérateur — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_cnc_a_p2.png",
+    "pdf": "data/corpus/operateur_cnc_a.pdf",
+    "sha256": "fe591552c6e974f66b0ea0e0ea640a40158afbf8afb4af166890e41bdbd62696"
+  },
+  {
+    "document_id": "outillage_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Outillage partagé — CNC-A",
+    "text": "Machine CNC-A. OUTIL-UNIQUE ne possède qu'un exemplaire. Les OF qui le mobilisent ne peuvent pas se chevaucher, même sur des machines différentes.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_cnc_a_p1.png",
+    "pdf": "data/corpus/outillage_cnc_a.pdf",
+    "sha256": "c01b43025fdc4367ccd7d4f12735e4e68387e614f2dea530c9a82e903d17e058"
+  },
+  {
+    "document_id": "outillage_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Outillage partagé — CNC-A",
+    "text": "Traçabilité — Outillage partagé — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_cnc_a_p2.png",
+    "pdf": "data/corpus/outillage_cnc_a.pdf",
+    "sha256": "ab8839fbb0109913bd6482931b3a8aebf3e505a7a76e939ab445a661866b6cd8"
+  },
+  {
+    "document_id": "gel_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gel en replanification — CNC-A",
+    "text": "Machine CNC-A. Toute opération commencée ou terminée avant l'aléa conserve machine, début, fin et réglage. Les opérations futures sont recalculées après l'instant courant.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_cnc_a_p1.png",
+    "pdf": "data/corpus/gel_cnc_a.pdf",
+    "sha256": "0704b23198140e09f1059193948a57467e7dd43e7cef26f50adc2586cb2e89fa"
+  },
+  {
+    "document_id": "gel_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gel en replanification — CNC-A",
+    "text": "Traçabilité — Gel en replanification — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_cnc_a_p2.png",
+    "pdf": "data/corpus/gel_cnc_a.pdf",
+    "sha256": "ea8f4fb32e583b5ef3d551e0471a257b68e0f377369daecf66212944175a6e9b"
+  },
+  {
+    "document_id": "publication_cnc_a",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Validation du planning — CNC-A",
+    "text": "Machine CNC-A. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_cnc_a_p1.png",
+    "pdf": "data/corpus/publication_cnc_a.pdf",
+    "sha256": "c27a40cb2d5321232e87f980241ff7e6b59888dd200af77bffa3857e19d026e2"
+  },
+  {
+    "document_id": "publication_cnc_a",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Validation du planning — CNC-A",
+    "text": "Traçabilité — Validation du planning — CNC-A. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-A",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_cnc_a_p2.png",
+    "pdf": "data/corpus/publication_cnc_a.pdf",
+    "sha256": "56573b9c841287f7f9ea3be8e070efe963b842f24e1007b626a48778cbf68add"
+  },
+  {
+    "document_id": "alarme_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Lecture de l'afficheur — CNC-B",
+    "text": "Machine CNC-B. Un afficheur ARRET indique un état observé, jamais la durée de l'arrêt. Si la durée est inconnue, demander une estimation humaine avant de replanifier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_cnc_b_p1.png",
+    "pdf": "data/corpus/alarme_cnc_b.pdf",
+    "sha256": "f7a11daed9b04d855c8cc76d2e088799bdc8aae678f559b741916752804bc677"
+  },
+  {
+    "document_id": "alarme_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Lecture de l'afficheur — CNC-B",
+    "text": "Traçabilité — Lecture de l'afficheur — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_cnc_b_p2.png",
+    "pdf": "data/corpus/alarme_cnc_b.pdf",
+    "sha256": "53b5ea74098c72f3e25d2f22fb8b7e06edf8cc4e76bdef614d2d3a6787c15660"
+  },
+  {
+    "document_id": "matiere_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité matière — CNC-B",
+    "text": "Machine CNC-B. La production ne démarre pas avant la réception matière confirmée dans l'ERP. Un retard matière modifie la borne de disponibilité de l'OF.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_cnc_b_p1.png",
+    "pdf": "data/corpus/matiere_cnc_b.pdf",
+    "sha256": "a1d1ef467bfc5fac65d7fe8d049bd0158546a68d33163fcfce511073dfb3a670"
+  },
+  {
+    "document_id": "matiere_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité matière — CNC-B",
+    "text": "Traçabilité — Disponibilité matière — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_cnc_b_p2.png",
+    "pdf": "data/corpus/matiere_cnc_b.pdf",
+    "sha256": "7909b7955f99a6d8a175ee2d38858ce7c7ad8b3eea0efb2554c1e0c9a04031be"
+  },
+  {
+    "document_id": "operateur_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité opérateur — CNC-B",
+    "text": "Machine CNC-B. OP-01 est un pseudonyme de ressource. Une ressource unique n'exécute pas deux OF simultanément. Ses absences sont des intervalles interdits.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_cnc_b_p1.png",
+    "pdf": "data/corpus/operateur_cnc_b.pdf",
+    "sha256": "1428c22be23a72d898fd7a5a5ab9a19fbd1629a99c9946c093e7f30fd7f297fe"
+  },
+  {
+    "document_id": "operateur_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité opérateur — CNC-B",
+    "text": "Traçabilité — Disponibilité opérateur — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_cnc_b_p2.png",
+    "pdf": "data/corpus/operateur_cnc_b.pdf",
+    "sha256": "86b46f160744681cecdb93149c3510f1e9dd63b0f515e9c587ae37086ac54c0f"
+  },
+  {
+    "document_id": "outillage_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Outillage partagé — CNC-B",
+    "text": "Machine CNC-B. OUTIL-UNIQUE ne possède qu'un exemplaire. Les OF qui le mobilisent ne peuvent pas se chevaucher, même sur des machines différentes.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_cnc_b_p1.png",
+    "pdf": "data/corpus/outillage_cnc_b.pdf",
+    "sha256": "d1ecca76681e6b86f0d339136fdb2a2c333d616e99a0256c0116fd03191539d0"
+  },
+  {
+    "document_id": "outillage_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Outillage partagé — CNC-B",
+    "text": "Traçabilité — Outillage partagé — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_cnc_b_p2.png",
+    "pdf": "data/corpus/outillage_cnc_b.pdf",
+    "sha256": "3a8297a9b398f6179ccc6efcaef74f161f5d7e9393bf1d18d4e88f39795e4136"
+  },
+  {
+    "document_id": "gel_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gel en replanification — CNC-B",
+    "text": "Machine CNC-B. Toute opération commencée ou terminée avant l'aléa conserve machine, début, fin et réglage. Les opérations futures sont recalculées après l'instant courant.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_cnc_b_p1.png",
+    "pdf": "data/corpus/gel_cnc_b.pdf",
+    "sha256": "39ef98b444640a64fb30578422cfced5da2ab295f40632db8771c1246338496f"
+  },
+  {
+    "document_id": "gel_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gel en replanification — CNC-B",
+    "text": "Traçabilité — Gel en replanification — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_cnc_b_p2.png",
+    "pdf": "data/corpus/gel_cnc_b.pdf",
+    "sha256": "28e68195260282173b673ef6953a2460a68ddc40a30125e34356dd1928492bdb"
+  },
+  {
+    "document_id": "publication_cnc_b",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Validation du planning — CNC-B",
+    "text": "Machine CNC-B. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_cnc_b_p1.png",
+    "pdf": "data/corpus/publication_cnc_b.pdf",
+    "sha256": "5bebf4b3416c2f58b52ef6b5b96d894933f9501061f2f138d6129d53bcf7ad2e"
+  },
+  {
+    "document_id": "publication_cnc_b",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Validation du planning — CNC-B",
+    "text": "Traçabilité — Validation du planning — CNC-B. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "CNC-B",
+    "family": "CNC",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_cnc_b_p2.png",
+    "pdf": "data/corpus/publication_cnc_b.pdf",
+    "sha256": "1d9f00fbb1fc3568a202c520a04553e57cd508cfa8ada105ed6684c43dfe2c5f"
+  },
+  {
+    "document_id": "alarme_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Lecture de l'afficheur — TOUR-C",
+    "text": "Machine TOUR-C. Un afficheur ARRET indique un état observé, jamais la durée de l'arrêt. Si la durée est inconnue, demander une estimation humaine avant de replanifier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_tour_c_p1.png",
+    "pdf": "data/corpus/alarme_tour_c.pdf",
+    "sha256": "c40fc867a0ef6313a625312e773ad2a7c4c7d36e8d0416b14aeb77c2d686f308"
+  },
+  {
+    "document_id": "alarme_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Lecture de l'afficheur — TOUR-C",
+    "text": "Traçabilité — Lecture de l'afficheur — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_tour_c_p2.png",
+    "pdf": "data/corpus/alarme_tour_c.pdf",
+    "sha256": "19ef81ce1a2f3e1e3470eea4a90c58449b4d9f1dcb6a8c3bb280794a9611a3bc"
+  },
+  {
+    "document_id": "matiere_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité matière — TOUR-C",
+    "text": "Machine TOUR-C. La production ne démarre pas avant la réception matière confirmée dans l'ERP. Un retard matière modifie la borne de disponibilité de l'OF.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_tour_c_p1.png",
+    "pdf": "data/corpus/matiere_tour_c.pdf",
+    "sha256": "8a1e3049085456c7425f3027315de712dafc3d59e4a00b6165d86759a8ec1964"
+  },
+  {
+    "document_id": "matiere_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité matière — TOUR-C",
+    "text": "Traçabilité — Disponibilité matière — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_tour_c_p2.png",
+    "pdf": "data/corpus/matiere_tour_c.pdf",
+    "sha256": "8516cd43053a40d5e7d822b3c23995d6f6de5c2b13f087701cf9948394b920a2"
+  },
+  {
+    "document_id": "operateur_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité opérateur — TOUR-C",
+    "text": "Machine TOUR-C. OP-01 est un pseudonyme de ressource. Une ressource unique n'exécute pas deux OF simultanément. Ses absences sont des intervalles interdits.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_tour_c_p1.png",
+    "pdf": "data/corpus/operateur_tour_c.pdf",
+    "sha256": "a6773a2e614920d76c944c3bed5eeacd8d2cf3366d2ded1300bd33f370551daa"
+  },
+  {
+    "document_id": "operateur_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité opérateur — TOUR-C",
+    "text": "Traçabilité — Disponibilité opérateur — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_tour_c_p2.png",
+    "pdf": "data/corpus/operateur_tour_c.pdf",
+    "sha256": "4762d18c5eba4a04896dd8820b01871c92930739b593fc4b4790926666508423"
+  },
+  {
+    "document_id": "outillage_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Outillage partagé — TOUR-C",
+    "text": "Machine TOUR-C. OUTIL-UNIQUE ne possède qu'un exemplaire. Les OF qui le mobilisent ne peuvent pas se chevaucher, même sur des machines différentes.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_tour_c_p1.png",
+    "pdf": "data/corpus/outillage_tour_c.pdf",
+    "sha256": "874629152e90c75d04762d41eb636bc239b18adb63c2a4eafb2fa8dc1bbb0dba"
+  },
+  {
+    "document_id": "outillage_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Outillage partagé — TOUR-C",
+    "text": "Traçabilité — Outillage partagé — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/outillage_tour_c_p2.png",
+    "pdf": "data/corpus/outillage_tour_c.pdf",
+    "sha256": "e1f05b30f615168b7b54d7c27153cc1e31b06091f457e5779e805f2c91f0b07b"
+  },
+  {
+    "document_id": "gel_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Gel en replanification — TOUR-C",
+    "text": "Machine TOUR-C. Toute opération commencée ou terminée avant l'aléa conserve machine, début, fin et réglage. Les opérations futures sont recalculées après l'instant courant.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_tour_c_p1.png",
+    "pdf": "data/corpus/gel_tour_c.pdf",
+    "sha256": "f9d093af90cbe16ab75d3c661659c34d5d13f937628ec43cf18a00a1ac9d6239"
+  },
+  {
+    "document_id": "gel_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Gel en replanification — TOUR-C",
+    "text": "Traçabilité — Gel en replanification — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/gel_tour_c_p2.png",
+    "pdf": "data/corpus/gel_tour_c.pdf",
+    "sha256": "c62e0d214e63ade31b092156daf22ee980b51e4143aee6d9978d5131ad3f6405"
+  },
+  {
+    "document_id": "publication_tour_c",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Validation du planning — TOUR-C",
+    "text": "Machine TOUR-C. Le chef d'atelier examine le planning exact. L'approbation expire après 5 minutes et est liée à son identité, à l'atelier et au hash. Une modification exige un nouvel accord.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_tour_c_p1.png",
+    "pdf": "data/corpus/publication_tour_c.pdf",
+    "sha256": "a33b37fcdc5d8703544035eef696589b0be3b3a859fa8b1928556a96413d975f"
+  },
+  {
+    "document_id": "publication_tour_c",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Validation du planning — TOUR-C",
+    "text": "Traçabilité — Validation du planning — TOUR-C. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-C",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/publication_tour_c_p2.png",
+    "pdf": "data/corpus/publication_tour_c.pdf",
+    "sha256": "974485d9d317b413c032c612decf48efa9eb14aad7fbeae8c594fd83a74e6aa2"
+  },
+  {
+    "document_id": "alarme_tour_d",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Lecture de l'afficheur — TOUR-D",
+    "text": "Machine TOUR-D. Un afficheur ARRET indique un état observé, jamais la durée de l'arrêt. Si la durée est inconnue, demander une estimation humaine avant de replanifier.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_tour_d_p1.png",
+    "pdf": "data/corpus/alarme_tour_d.pdf",
+    "sha256": "873ec0d8fd06a653b97569ace599e8a86a46125a29b51487a4b737b0e2aadbcf"
+  },
+  {
+    "document_id": "alarme_tour_d",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Lecture de l'afficheur — TOUR-D",
+    "text": "Traçabilité — Lecture de l'afficheur — TOUR-D. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/alarme_tour_d_p2.png",
+    "pdf": "data/corpus/alarme_tour_d.pdf",
+    "sha256": "4ac7fe698737d31e0e98579117d98eb42845a151c62412004838bc279e369b0f"
+  },
+  {
+    "document_id": "matiere_tour_d",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité matière — TOUR-D",
+    "text": "Machine TOUR-D. La production ne démarre pas avant la réception matière confirmée dans l'ERP. Un retard matière modifie la borne de disponibilité de l'OF.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_tour_d_p1.png",
+    "pdf": "data/corpus/matiere_tour_d.pdf",
+    "sha256": "92dd26d369fb81af722882a578daca30788bd2c61c04605d08acf3c8f6a93816"
+  },
+  {
+    "document_id": "matiere_tour_d",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité matière — TOUR-D",
+    "text": "Traçabilité — Disponibilité matière — TOUR-D. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/matiere_tour_d_p2.png",
+    "pdf": "data/corpus/matiere_tour_d.pdf",
+    "sha256": "e4c07dd41ae9e2965a336f3b382ce8ff9b3fd2b5ed1aaf36a1ab92e44ed8de4b"
+  },
+  {
+    "document_id": "operateur_tour_d",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Disponibilité opérateur — TOUR-D",
+    "text": "Machine TOUR-D. OP-01 est un pseudonyme de ressource. Une ressource unique n'exécute pas deux OF simultanément. Ses absences sont des intervalles interdits.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_tour_d_p1.png",
+    "pdf": "data/corpus/operateur_tour_d.pdf",
+    "sha256": "28942f8a68300c1d19392396993224d64525b6b6ff10b68c202409144defc289"
+  },
+  {
+    "document_id": "operateur_tour_d",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Disponibilité opérateur — TOUR-D",
+    "text": "Traçabilité — Disponibilité opérateur — TOUR-D. Document synthétique, version 1.0. Atelier ATELIER-1. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-D",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-1",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/operateur_tour_d_p2.png",
+    "pdf": "data/corpus/operateur_tour_d.pdf",
+    "sha256": "29ef58ed5474737d6bc1cba3c059eca19e01bffa98af8e332ff76b0126ac4548"
+  },
+  {
+    "document_id": "confidentiel_atelier2_0",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Règle confidentielle atelier 2 / 0",
+    "text": "SECRET-ATELIER-2-0. TOUR-Z : réglage spécifique de 45 minutes. Ce document n'est pas accessible à l'atelier 1.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_0_p1.png",
+    "pdf": "data/corpus/confidentiel_atelier2_0.pdf",
+    "sha256": "f348766e3215943fb4a16f0e938627703cf6f07f6f608e92701cd6ecabe9833f"
+  },
+  {
+    "document_id": "confidentiel_atelier2_0",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Règle confidentielle atelier 2 / 0",
+    "text": "Traçabilité — Règle confidentielle atelier 2 / 0. Document synthétique, version 1.0. Atelier ATELIER-2. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_0_p2.png",
+    "pdf": "data/corpus/confidentiel_atelier2_0.pdf",
+    "sha256": "9a531bf7e193e574ea3649d65a7227891842b2466fd5848eef35d9d53b40ed9b"
+  },
+  {
+    "document_id": "confidentiel_atelier2_1",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Règle confidentielle atelier 2 / 1",
+    "text": "SECRET-ATELIER-2-1. TOUR-Z : réglage spécifique de 46 minutes. Ce document n'est pas accessible à l'atelier 1.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_1_p1.png",
+    "pdf": "data/corpus/confidentiel_atelier2_1.pdf",
+    "sha256": "2f146e7302cc9b1563be5106407a82a37440d4577af308f70a459aa02346ca12"
+  },
+  {
+    "document_id": "confidentiel_atelier2_1",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Règle confidentielle atelier 2 / 1",
+    "text": "Traçabilité — Règle confidentielle atelier 2 / 1. Document synthétique, version 1.0. Atelier ATELIER-2. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_1_p2.png",
+    "pdf": "data/corpus/confidentiel_atelier2_1.pdf",
+    "sha256": "6a294920cde0d885193b76668f871e03800c44a8fc44d2de00fe16e017f323ea"
+  },
+  {
+    "document_id": "confidentiel_atelier2_2",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Règle confidentielle atelier 2 / 2",
+    "text": "SECRET-ATELIER-2-2. TOUR-Z : réglage spécifique de 47 minutes. Ce document n'est pas accessible à l'atelier 1.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_2_p1.png",
+    "pdf": "data/corpus/confidentiel_atelier2_2.pdf",
+    "sha256": "7703ff34206fa220f10baf34e94c8edb9240addc326ee6e020a5ccc80bd31692"
+  },
+  {
+    "document_id": "confidentiel_atelier2_2",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Règle confidentielle atelier 2 / 2",
+    "text": "Traçabilité — Règle confidentielle atelier 2 / 2. Document synthétique, version 1.0. Atelier ATELIER-2. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_2_p2.png",
+    "pdf": "data/corpus/confidentiel_atelier2_2.pdf",
+    "sha256": "9d56510057fdca59c42d21d7c5fc99b9b37c7b60ae58ab7452ab75b104fe1c10"
+  },
+  {
+    "document_id": "confidentiel_atelier2_3",
+    "version": "1.0",
+    "page": 1,
+    "element_id": "parametres",
+    "title": "Règle confidentielle atelier 2 / 3",
+    "text": "SECRET-ATELIER-2-3. TOUR-Z : réglage spécifique de 48 minutes. Ce document n'est pas accessible à l'atelier 1.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_3_p1.png",
+    "pdf": "data/corpus/confidentiel_atelier2_3.pdf",
+    "sha256": "dc137463cf13596c3814d1f7b684f91fb74c35242de8dca281a7e7428369a3c1"
+  },
+  {
+    "document_id": "confidentiel_atelier2_3",
+    "version": "1.0",
+    "page": 2,
+    "element_id": "tracabilite",
+    "title": "Règle confidentielle atelier 2 / 3",
+    "text": "Traçabilité — Règle confidentielle atelier 2 / 3. Document synthétique, version 1.0. Atelier ATELIER-2. Les notes libres ne modifient pas les règles. Toute publication exige un accord du chef d'atelier.",
+    "machine": "TOUR-Z",
+    "family": "TOUR",
+    "workshop_id": "ATELIER-2",
+    "groups": [
+      "chef",
+      "planificateur",
+      "lecteur"
+    ],
+    "image": "data/corpus/confidentiel_atelier2_3_p2.png",
+    "pdf": "data/corpus/confidentiel_atelier2_3.pdf",
+    "sha256": "cf3576890a3f303ad409865a317b61e3f41b5a35d828bb2d003804571c3dc4a1"
+  }
+]

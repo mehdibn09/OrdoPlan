@@ -1,0 +1,435 @@
+{
+  "id": "instance-25",
+  "workshop_id": "ATELIER-1",
+  "orders": [
+    {
+      "id": "OF-101",
+      "reference": "REF-101",
+      "family": "ALU",
+      "quantity": 12,
+      "unit_minutes": 5,
+      "due": 400,
+      "release": 30,
+      "priority": 1,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": null,
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-101",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_101",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_101",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-101",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-101",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-102",
+      "reference": "REF-102",
+      "family": "ACIER",
+      "quantity": 9,
+      "unit_minutes": 5,
+      "due": 200,
+      "release": 0,
+      "priority": 1,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": "OUTIL-UNIQUE",
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-102",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_102",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_102",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-102",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-102",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-103",
+      "reference": "REF-103",
+      "family": "ALU",
+      "quantity": 6,
+      "unit_minutes": 5,
+      "due": 510,
+      "release": 0,
+      "priority": 3,
+      "eligible": [
+        "CNC-B"
+      ],
+      "tool": null,
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-103",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_103",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_103",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-103",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-103",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-104",
+      "reference": "REF-104",
+      "family": "ACIER",
+      "quantity": 11,
+      "unit_minutes": 5,
+      "due": 590,
+      "release": 60,
+      "priority": 3,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": "OUTIL-UNIQUE",
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-104",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_104",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_104",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-104",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-104",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-105",
+      "reference": "REF-105",
+      "family": "ALU",
+      "quantity": 13,
+      "unit_minutes": 5,
+      "due": 190,
+      "release": 30,
+      "priority": 1,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": null,
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-105",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_105",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_105",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-105",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-105",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-106",
+      "reference": "REF-106",
+      "family": "ACIER",
+      "quantity": 7,
+      "unit_minutes": 5,
+      "due": 190,
+      "release": 60,
+      "priority": 1,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": "OUTIL-UNIQUE",
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-106",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_106",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_106",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-106",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-106",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-107",
+      "reference": "REF-107",
+      "family": "ALU",
+      "quantity": 6,
+      "unit_minutes": 5,
+      "due": 280,
+      "release": 0,
+      "priority": 2,
+      "eligible": [
+        "CNC-A",
+        "CNC-B"
+      ],
+      "tool": null,
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-107",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_107",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_107",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-107",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-107",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    },
+    {
+      "id": "OF-108",
+      "reference": "REF-108",
+      "family": "ACIER",
+      "quantity": 5,
+      "unit_minutes": 5,
+      "due": 220,
+      "release": 30,
+      "priority": 1,
+      "eligible": [
+        "CNC-B"
+      ],
+      "tool": null,
+      "operator": null,
+      "sources": {
+        "duration": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-108",
+          "version": "1.0"
+        },
+        "eligible": {
+          "document_id": "gamme_108",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "tool": {
+          "document_id": "gamme_108",
+          "page": 1,
+          "element_id": "parametres",
+          "version": "1.0"
+        },
+        "due": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-108",
+          "version": "1.0"
+        },
+        "release": {
+          "document_id": "erp_instance_25",
+          "page": 1,
+          "element_id": "OF-108",
+          "version": "1.0"
+        }
+      },
+      "note": ""
+    }
+  ],
+  "machines": [
+    {
+      "id": "CNC-A",
+      "initial_family": "ALU",
+      "unavailable": [],
+      "source": {
+        "document_id": "fiche_cnc_a",
+        "page": 1,
+        "element_id": "fiche",
+        "version": "1.0"
+      }
+    },
+    {
+      "id": "CNC-B",
+      "initial_family": "ALU",
+      "unavailable": [],
+      "source": {
+        "document_id": "fiche_cnc_b",
+        "page": 1,
+        "element_id": "fiche",
+        "version": "1.0"
+      }
+    }
+  ],
+  "setup": {
+    "ALU>ACIER": 30,
+    "ACIER>ALU": 20
+  },
+  "setup_source": {
+    "document_id": "regles_reglage",
+    "page": 1,
+    "element_id": "parametres",
+    "version": "1.0"
+  },
+  "horizon": 720,
+  "now": 0,
+  "frozen": [],
+  "baseline": [],
+  "resource_unavailable": {}
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "transport": "HTTP FastAPI + MCP Streamable HTTP réel",
+  "latency_seconds": {
+    "median": 0.09996103299954484,
+    "p95": 0.2979371654501392
+  },
+  "ui_health": "ok",
+  "identity": "non-root",
+  "test_state_retained": false,
+  "unit_tests": 68,
+  "scope": "Conteneur de construction, utilisateur non root, trois services locaux. Compose à services séparés : configuration validée, topologie complète non démarrée dans cet environnement VFS de 8 Go.",
+  "base_python": "3.12.14-slim-bookworm",
+  "pymupdf": "1.26.7",
+  "tls_build": "Certificat de confiance de la session monté comme secret BuildKit ; certificat absent des couches.",
+  "image_id": "sha256:a98799bbe3ca30a7a5401913b7a462106304b3eee08bbc921d3226a363283dc6"
+}

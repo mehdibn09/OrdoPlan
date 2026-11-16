@@ -1,0 +1,7 @@
+# Lot pédagogique 1 — Cadrage, corpus, architecture
+
+Travaux livrés : 40 PDF fictifs, métadonnées, risques et guide d'entretien non effectué.
+
+Validation : consulter les preuves et limites correspondantes dans docs/matrice_conformite.md et reports/.
+
+La réalisation est regroupée dans cette livraison. Ce fichier ne représente ni une semaine calendaire effectivement écoulée ni un entretien fictif.

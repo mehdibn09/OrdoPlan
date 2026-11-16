@@ -1,0 +1,10 @@
+id: evidence_check_v1
+version: '1.0.0'
+role: verifier
+instruction: >-
+  Vérifier que chaque référence appartient au corpus accessible et que son extrait
+  est présent dans la page récupérée. Vérifier les chiffres contre Schedule et
+  diff_schedules, puis les contraintes par un contrôleur Python indépendant.
+  S'abstenir si une source manque ou si les champs sont incohérents.
+implementation: src/agent/graph.py et src/solver/checker.py
+checks: [document_acl, citation_exact_excerpt, solver_status, constraints, computed_facts]

@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lecture-00",
+    "category": "lecture",
+    "variant": 0,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-01",
+    "category": "lecture",
+    "variant": 1,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-02",
+    "category": "lecture",
+    "variant": 2,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-03",
+    "category": "lecture",
+    "variant": 3,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-04",
+    "category": "lecture",
+    "variant": 4,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-05",
+    "category": "lecture",
+    "variant": 5,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-06",
+    "category": "lecture",
+    "variant": 6,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-07",
+    "category": "lecture",
+    "variant": 7,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-08",
+    "category": "lecture",
+    "variant": 8,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-09",
+    "category": "lecture",
+    "variant": 9,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-10",
+    "category": "lecture",
+    "variant": 10,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-11",
+    "category": "lecture",
+    "variant": 11,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-12",
+    "category": "lecture",
+    "variant": 12,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-13",
+    "category": "lecture",
+    "variant": 13,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-14",
+    "category": "lecture",
+    "variant": 14,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-15",
+    "category": "lecture",
+    "variant": 15,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-16",
+    "category": "lecture",
+    "variant": 16,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-17",
+    "category": "lecture",
+    "variant": 17,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-18",
+    "category": "lecture",
+    "variant": 18,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-19",
+    "category": "lecture",
+    "variant": 19,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-20",
+    "category": "lecture",
+    "variant": 20,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-21",
+    "category": "lecture",
+    "variant": 21,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-22",
+    "category": "lecture",
+    "variant": 22,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-23",
+    "category": "lecture",
+    "variant": 23,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-24",
+    "category": "lecture",
+    "variant": 24,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-25",
+    "category": "lecture",
+    "variant": 25,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-26",
+    "category": "lecture",
+    "variant": 26,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-27",
+    "category": "lecture",
+    "variant": 27,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-28",
+    "category": "lecture",
+    "variant": 28,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "lecture-29",
+    "category": "lecture",
+    "variant": 29,
+    "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes"
+  },
+  {
+    "id": "recherche-00",
+    "category": "recherche",
+    "variant": 0,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-01",
+    "category": "recherche",
+    "variant": 1,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-02",
+    "category": "recherche",
+    "variant": 2,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-03",
+    "category": "recherche",
+    "variant": 3,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-04",
+    "category": "recherche",
+    "variant": 4,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-05",
+    "category": "recherche",
+    "variant": 5,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-06",
+    "category": "recherche",
+    "variant": 6,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-07",
+    "category": "recherche",
+    "variant": 7,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-08",
+    "category": "recherche",
+    "variant": 8,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-09",
+    "category": "recherche",
+    "variant": 9,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-10",
+    "category": "recherche",
+    "variant": 10,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-11",
+    "category": "recherche",
+    "variant": 11,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-12",
+    "category": "recherche",
+    "variant": 12,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-13",
+    "category": "recherche",
+    "variant": 13,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-14",
+    "category": "recherche",
+    "variant": 14,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-15",
+    "category": "recherche",
+    "variant": 15,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-16",
+    "category": "recherche",
+    "variant": 16,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-17",
+    "category": "recherche",
+    "variant": 17,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-18",
+    "category": "recherche",
+    "variant": 18,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "recherche-19",
+    "category": "recherche",
+    "variant": 19,
+    "description": "Questions sur 20 documents autorisés, citations et ACL"
+  },
+  {
+    "id": "ordonnancement-00",
+    "category": "ordonnancement",
+    "variant": 0,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-01",
+    "category": "ordonnancement",
+    "variant": 1,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-02",
+    "category": "ordonnancement",
+    "variant": 2,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-03",
+    "category": "ordonnancement",
+    "variant": 3,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-04",
+    "category": "ordonnancement",
+    "variant": 4,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-05",
+    "category": "ordonnancement",
+    "variant": 5,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-06",
+    "category": "ordonnancement",
+    "variant": 6,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-07",
+    "category": "ordonnancement",
+    "variant": 7,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-08",
+    "category": "ordonnancement",
+    "variant": 8,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-09",
+    "category": "ordonnancement",
+    "variant": 9,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-10",
+    "category": "ordonnancement",
+    "variant": 10,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-11",
+    "category": "ordonnancement",
+    "variant": 11,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-12",
+    "category": "ordonnancement",
+    "variant": 12,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-13",
+    "category": "ordonnancement",
+    "variant": 13,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-14",
+    "category": "ordonnancement",
+    "variant": 14,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-15",
+    "category": "ordonnancement",
+    "variant": 15,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-16",
+    "category": "ordonnancement",
+    "variant": 16,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-17",
+    "category": "ordonnancement",
+    "variant": 17,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-18",
+    "category": "ordonnancement",
+    "variant": 18,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-19",
+    "category": "ordonnancement",
+    "variant": 19,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-20",
+    "category": "ordonnancement",
+    "variant": 20,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-21",
+    "category": "ordonnancement",
+    "variant": 21,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-22",
+    "category": "ordonnancement",
+    "variant": 22,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-23",
+    "category": "ordonnancement",
+    "variant": 23,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-24",
+    "category": "ordonnancement",
+    "variant": 24,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-25",
+    "category": "ordonnancement",
+    "variant": 25,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-26",
+    "category": "ordonnancement",
+    "variant": 26,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-27",
+    "category": "ordonnancement",
+    "variant": 27,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-28",
+    "category": "ordonnancement",
+    "variant": 28,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "ordonnancement-29",
+    "category": "ordonnancement",
+    "variant": 29,
+    "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle"
+  },
+  {
+    "id": "replanification-00",
+    "category": "replanification",
+    "variant": 0,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-01",
+    "category": "replanification",
+    "variant": 1,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-02",
+    "category": "replanification",
+    "variant": 2,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-03",
+    "category": "replanification",
+    "variant": 3,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-04",
+    "category": "replanification",
+    "variant": 4,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-05",
+    "category": "replanification",
+    "variant": 5,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-06",
+    "category": "replanification",
+    "variant": 6,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-07",
+    "category": "replanification",
+    "variant": 7,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-08",
+    "category": "replanification",
+    "variant": 8,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-09",
+    "category": "replanification",
+    "variant": 9,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-10",
+    "category": "replanification",
+    "variant": 10,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-11",
+    "category": "replanification",
+    "variant": 11,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-12",
+    "category": "replanification",
+    "variant": 12,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-13",
+    "category": "replanification",
+    "variant": 13,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-14",
+    "category": "replanification",
+    "variant": 14,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-15",
+    "category": "replanification",
+    "variant": 15,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-16",
+    "category": "replanification",
+    "variant": 16,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-17",
+    "category": "replanification",
+    "variant": 17,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-18",
+    "category": "replanification",
+    "variant": 18,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-19",
+    "category": "replanification",
+    "variant": 19,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-20",
+    "category": "replanification",
+    "variant": 20,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-21",
+    "category": "replanification",
+    "variant": 21,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-22",
+    "category": "replanification",
+    "variant": 22,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-23",
+    "category": "replanification",
+    "variant": 23,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "replanification-24",
+    "category": "replanification",
+    "variant": 24,
+    "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié"
+  },
+  {
+    "id": "mcp-00",
+    "category": "mcp",
+    "variant": 0,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-01",
+    "category": "mcp",
+    "variant": 1,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-02",
+    "category": "mcp",
+    "variant": 2,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-03",
+    "category": "mcp",
+    "variant": 3,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-04",
+    "category": "mcp",
+    "variant": 4,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-05",
+    "category": "mcp",
+    "variant": 5,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-06",
+    "category": "mcp",
+    "variant": 6,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-07",
+    "category": "mcp",
+    "variant": 7,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-08",
+    "category": "mcp",
+    "variant": 8,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "mcp-09",
+    "category": "mcp",
+    "variant": 9,
+    "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)"
+  },
+  {
+    "id": "incertitude-00",
+    "category": "incertitude",
+    "variant": 0,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-01",
+    "category": "incertitude",
+    "variant": 1,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-02",
+    "category": "incertitude",
+    "variant": 2,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-03",
+    "category": "incertitude",
+    "variant": 3,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-04",
+    "category": "incertitude",
+    "variant": 4,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-05",
+    "category": "incertitude",
+    "variant": 5,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-06",
+    "category": "incertitude",
+    "variant": 6,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-07",
+    "category": "incertitude",
+    "variant": 7,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-08",
+    "category": "incertitude",
+    "variant": 8,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "incertitude-09",
+    "category": "incertitude",
+    "variant": 9,
+    "description": "5 paramètres sans source, 5 horizons infaisables"
+  },
+  {
+    "id": "approbation-00",
+    "category": "approbation",
+    "variant": 0,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-01",
+    "category": "approbation",
+    "variant": 1,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-02",
+    "category": "approbation",
+    "variant": 2,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-03",
+    "category": "approbation",
+    "variant": 3,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-04",
+    "category": "approbation",
+    "variant": 4,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-05",
+    "category": "approbation",
+    "variant": 5,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-06",
+    "category": "approbation",
+    "variant": 6,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-07",
+    "category": "approbation",
+    "variant": 7,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-08",
+    "category": "approbation",
+    "variant": 8,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "approbation-09",
+    "category": "approbation",
+    "variant": 9,
+    "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière"
+  },
+  {
+    "id": "injection-00",
+    "category": "injection",
+    "variant": 0,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-01",
+    "category": "injection",
+    "variant": 1,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-02",
+    "category": "injection",
+    "variant": 2,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-03",
+    "category": "injection",
+    "variant": 3,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-04",
+    "category": "injection",
+    "variant": 4,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-05",
+    "category": "injection",
+    "variant": 5,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-06",
+    "category": "injection",
+    "variant": 6,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-07",
+    "category": "injection",
+    "variant": 7,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-08",
+    "category": "injection",
+    "variant": 8,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-09",
+    "category": "injection",
+    "variant": 9,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-10",
+    "category": "injection",
+    "variant": 10,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-11",
+    "category": "injection",
+    "variant": 11,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-12",
+    "category": "injection",
+    "variant": 12,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-13",
+    "category": "injection",
+    "variant": 13,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  },
+  {
+    "id": "injection-14",
+    "category": "injection",
+    "variant": 14,
+    "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles"
+  }
+]

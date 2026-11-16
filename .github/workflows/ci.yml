@@ -1,0 +1,23 @@
+name: OrdoPlan CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-eng fonts-dejavu-core
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check src scripts tests
+      - run: python -m pytest -q --junitxml=reports/ci-tests.xml
+      - run: python -m scripts.evaluate
+      - run: python -m scripts.scan_secrets
+      - run: pip-audit -r requirements.lock.txt --format json --output reports/dependency-audit.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rapports-ordoplan
+          path: reports/

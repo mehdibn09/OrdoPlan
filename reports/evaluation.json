@@ -1,0 +1,2827 @@
+{
+  "version": "1.0.0",
+  "executed": 150,
+  "passed": 150,
+  "failed": 0,
+  "categories": {
+    "lecture": 30,
+    "recherche": 20,
+    "ordonnancement": 30,
+    "replanification": 25,
+    "mcp": 10,
+    "incertitude": 10,
+    "approbation": 10,
+    "injection": 15
+  },
+  "latency_seconds": {
+    "median": 0.09028026399982991,
+    "p95": 0.35928876869991183
+  },
+  "solver": {
+    "valid_schedules": 30,
+    "violations": 0,
+    "not_worse_than_EDD": 30,
+    "not_worse_than_FIFO": 30
+  },
+  "replanning": {
+    "count": 25,
+    "p95_seconds": 0.12679075499991083
+  },
+  "hardware": {
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "cpu_threads_for_solver": 1,
+    "gpu": false
+  },
+  "scope": "Tests de composants en local CPU. Ne mesure ni latence réseau globale, ni Telegram réel, ni VLM sur 30 photos. Lecture : 10 images OCR, 10 CSV, 5 PDF, 5 rejets. Mesures API/MCP et VLM séparées.",
+  "results": [
+    {
+      "id": "lecture-00",
+      "category": "lecture",
+      "variant": 0,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.34062403300004007,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-101",
+          "reference": "REF-101",
+          "quantity": 5,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-01",
+      "category": "lecture",
+      "variant": 1,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.28735351399973297,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-102",
+          "reference": "REF-102",
+          "quantity": 6,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-02",
+      "category": "lecture",
+      "variant": 2,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.26391835799995533,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-103",
+          "reference": "REF-103",
+          "quantity": 7,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-03",
+      "category": "lecture",
+      "variant": 3,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.3125658939998175,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-104",
+          "reference": "REF-104",
+          "quantity": 8,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-04",
+      "category": "lecture",
+      "variant": 4,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.2616404160003185,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-105",
+          "reference": "REF-105",
+          "quantity": 9,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-05",
+      "category": "lecture",
+      "variant": 5,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.317997534999904,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-106",
+          "reference": "REF-106",
+          "quantity": 10,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-06",
+      "category": "lecture",
+      "variant": 6,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.24916982200011262,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-107",
+          "reference": "REF-107",
+          "quantity": 11,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-07",
+      "category": "lecture",
+      "variant": 7,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.2761707409999872,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-108",
+          "reference": "REF-108",
+          "quantity": 12,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-08",
+      "category": "lecture",
+      "variant": 8,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.3053507700001319,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-109",
+          "reference": "REF-109",
+          "quantity": 13,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-09",
+      "category": "lecture",
+      "variant": 9,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.27732142900003964,
+      "evidence": {
+        "field_matches": 4,
+        "field_total": 4,
+        "observation": {
+          "kind": "work_order",
+          "id": "OF-110",
+          "reference": "REF-110",
+          "quantity": 14,
+          "due": 330
+        }
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-10",
+      "category": "lecture",
+      "variant": 10,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.004172147000190307,
+      "evidence": {
+        "quantity": 1,
+        "duration": 5
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-11",
+      "category": "lecture",
+      "variant": 11,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0012480820000746462,
+      "evidence": {
+        "quantity": 2,
+        "duration": 10
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-12",
+      "category": "lecture",
+      "variant": 12,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0010199260000263166,
+      "evidence": {
+        "quantity": 3,
+        "duration": 15
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-13",
+      "category": "lecture",
+      "variant": 13,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0009266570000363572,
+      "evidence": {
+        "quantity": 4,
+        "duration": 20
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-14",
+      "category": "lecture",
+      "variant": 14,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0008930180001698318,
+      "evidence": {
+        "quantity": 5,
+        "duration": 25
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-15",
+      "category": "lecture",
+      "variant": 15,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0009462059997531469,
+      "evidence": {
+        "quantity": 6,
+        "duration": 30
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-16",
+      "category": "lecture",
+      "variant": 16,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0008892119999472925,
+      "evidence": {
+        "quantity": 7,
+        "duration": 35
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-17",
+      "category": "lecture",
+      "variant": 17,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0009933260002981115,
+      "evidence": {
+        "quantity": 8,
+        "duration": 40
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-18",
+      "category": "lecture",
+      "variant": 18,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0008712560002095415,
+      "evidence": {
+        "quantity": 9,
+        "duration": 45
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-19",
+      "category": "lecture",
+      "variant": 19,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0008244160003414436,
+      "evidence": {
+        "quantity": 10,
+        "duration": 50
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-20",
+      "category": "lecture",
+      "variant": 20,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.009425351000118098,
+      "evidence": {
+        "document": "regles_reglage",
+        "pages": 2
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-21",
+      "category": "lecture",
+      "variant": 21,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0020397600001160754,
+      "evidence": {
+        "document": "gamme_101",
+        "pages": 2
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-22",
+      "category": "lecture",
+      "variant": 22,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0018499200000405835,
+      "evidence": {
+        "document": "gamme_102",
+        "pages": 2
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-23",
+      "category": "lecture",
+      "variant": 23,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.004199477999918599,
+      "evidence": {
+        "document": "fiche_cnc_a",
+        "pages": 2
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-24",
+      "category": "lecture",
+      "variant": 24,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0019782600002145045,
+      "evidence": {
+        "document": "fiche_cnc_b",
+        "pages": 2
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-25",
+      "category": "lecture",
+      "variant": 25,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0019415649999245943,
+      "evidence": {
+        "invalid_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-26",
+      "category": "lecture",
+      "variant": 26,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0012223130001984828,
+      "evidence": {
+        "invalid_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-27",
+      "category": "lecture",
+      "variant": 27,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0009843630000432313,
+      "evidence": {
+        "invalid_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-28",
+      "category": "lecture",
+      "variant": 28,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0012607809999281017,
+      "evidence": {
+        "invalid_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "lecture-29",
+      "category": "lecture",
+      "variant": 29,
+      "description": "10 OF photographiés, 10 exports ERP, 5 PDF, 5 entrées incohérentes",
+      "passed": true,
+      "elapsed_seconds": 0.0010802140000123472,
+      "evidence": {
+        "invalid_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-00",
+      "category": "recherche",
+      "variant": 0,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.006106432000251516,
+      "evidence": {
+        "target": "fiche_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-01",
+      "category": "recherche",
+      "variant": 1,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004445309999937308,
+      "evidence": {
+        "target": "fiche_cnc_b",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-02",
+      "category": "recherche",
+      "variant": 2,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004741097000078298,
+      "evidence": {
+        "target": "fiche_tour_c",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-03",
+      "category": "recherche",
+      "variant": 3,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004032390999782365,
+      "evidence": {
+        "target": "fiche_tour_d",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-04",
+      "category": "recherche",
+      "variant": 4,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004282951999812212,
+      "evidence": {
+        "target": "regles_reglage",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-05",
+      "category": "recherche",
+      "variant": 5,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.003924040999663703,
+      "evidence": {
+        "target": "gamme_101",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-06",
+      "category": "recherche",
+      "variant": 6,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.00406632099975468,
+      "evidence": {
+        "target": "gamme_102",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-07",
+      "category": "recherche",
+      "variant": 7,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.003759978999823943,
+      "evidence": {
+        "target": "gamme_103",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-08",
+      "category": "recherche",
+      "variant": 8,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.0035859019999406883,
+      "evidence": {
+        "target": "gamme_104",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-09",
+      "category": "recherche",
+      "variant": 9,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.00400366900021254,
+      "evidence": {
+        "target": "gamme_105",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-10",
+      "category": "recherche",
+      "variant": 10,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.0036672319997705927,
+      "evidence": {
+        "target": "gamme_106",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-11",
+      "category": "recherche",
+      "variant": 11,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.0036865500001113105,
+      "evidence": {
+        "target": "gamme_107",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-12",
+      "category": "recherche",
+      "variant": 12,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.0035943140001108986,
+      "evidence": {
+        "target": "gamme_108",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-13",
+      "category": "recherche",
+      "variant": 13,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004099759999917296,
+      "evidence": {
+        "target": "erp_orders",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-14",
+      "category": "recherche",
+      "variant": 14,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004331141999955435,
+      "evidence": {
+        "target": "gamme_109",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-15",
+      "category": "recherche",
+      "variant": 15,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.0042706819999693835,
+      "evidence": {
+        "target": "alarme_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-16",
+      "category": "recherche",
+      "variant": 16,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004389178000110405,
+      "evidence": {
+        "target": "matiere_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-17",
+      "category": "recherche",
+      "variant": 17,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004053823000049306,
+      "evidence": {
+        "target": "operateur_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-18",
+      "category": "recherche",
+      "variant": 18,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.003988095000295289,
+      "evidence": {
+        "target": "outillage_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "recherche-19",
+      "category": "recherche",
+      "variant": 19,
+      "description": "Questions sur 20 documents autorisés, citations et ACL",
+      "passed": true,
+      "elapsed_seconds": 0.004108913999971264,
+      "evidence": {
+        "target": "gel_cnc_a",
+        "rank": 1,
+        "citation_valid": true
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-00",
+      "category": "ordonnancement",
+      "variant": 0,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.18761802200015154,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 285,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 305,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 300,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 865,
+            "makespan": 565,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.1864663119999932
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-01",
+      "category": "ordonnancement",
+      "variant": 1,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.09114523500011273,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 310,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 5,
+            "makespan": 400,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 255,
+            "makespan": 380,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 2020,
+            "makespan": 645,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.08990413300034561
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-02",
+      "category": "ordonnancement",
+      "variant": 2,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.1415023430004112,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 275,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 10,
+            "makespan": 305,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 625,
+            "makespan": 610,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.14023855799996454
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-03",
+      "category": "ordonnancement",
+      "variant": 3,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.08580997099988963,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 280,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 370,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 285,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1270,
+            "makespan": 595,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.08439135800017539
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-04",
+      "category": "ordonnancement",
+      "variant": 4,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.1539731729999403,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 275,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 335,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 780,
+            "makespan": 555,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.15284406600039802
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-05",
+      "category": "ordonnancement",
+      "variant": 5,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2605705070000113,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 205,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 290,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 235,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 150,
+            "makespan": 480,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.25916165899980115
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-06",
+      "category": "ordonnancement",
+      "variant": 6,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.1980137140003535,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 320,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 325,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 350,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1105,
+            "makespan": 655,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.19683792799969524
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-07",
+      "category": "ordonnancement",
+      "variant": 7,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.21579027000007045,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 265,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 325,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 290,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 685,
+            "makespan": 535,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.21429126800012455
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-08",
+      "category": "ordonnancement",
+      "variant": 8,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.20314855800006626,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 230,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 265,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 275,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 310,
+            "makespan": 470,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.20208628000000317
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-09",
+      "category": "ordonnancement",
+      "variant": 9,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.185078323000198,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 240,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 270,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 710,
+            "makespan": 510,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.18328062099999443
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-10",
+      "category": "ordonnancement",
+      "variant": 10,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2154931850000139,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 285,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 295,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 55,
+            "makespan": 310,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 705,
+            "makespan": 615,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2136570530001336
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-11",
+      "category": "ordonnancement",
+      "variant": 11,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.24114154200015037,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 260,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 290,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 415,
+            "makespan": 510,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.23974498500001573
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-12",
+      "category": "ordonnancement",
+      "variant": 12,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.14624132199969608,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 300,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 335,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 330,
+            "makespan": 340,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 710,
+            "makespan": 610,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.14504006100014522
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-13",
+      "category": "ordonnancement",
+      "variant": 13,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.3533926860000065,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 305,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 355,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 240,
+            "makespan": 350,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1170,
+            "makespan": 610,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.35223428799963585
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-14",
+      "category": "ordonnancement",
+      "variant": 14,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.25824259000000893,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 230,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 265,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 295,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 205,
+            "makespan": 485,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2568660329998238
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-15",
+      "category": "ordonnancement",
+      "variant": 15,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2429575820001446,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 290,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 45,
+            "makespan": 335,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 565,
+            "makespan": 570,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2416696950003825
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-16",
+      "category": "ordonnancement",
+      "variant": 16,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.22397422599988204,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 260,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 315,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 270,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 85,
+            "makespan": 560,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2227074999996148
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-17",
+      "category": "ordonnancement",
+      "variant": 17,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.1523847090002164,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 265,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 315,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 70,
+            "makespan": 325,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1540,
+            "makespan": 555,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.15107836400011365
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-18",
+      "category": "ordonnancement",
+      "variant": 18,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.3632930819999274,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 240,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 280,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 30,
+            "makespan": 260,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 385,
+            "makespan": 480,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.36195525400034967
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-19",
+      "category": "ordonnancement",
+      "variant": 19,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2140982079999958,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 250,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 345,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 30,
+            "makespan": 295,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 715,
+            "makespan": 555,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2129356329996881
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-20",
+      "category": "ordonnancement",
+      "variant": 20,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.22467087500035632,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 300,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 390,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 100,
+            "makespan": 310,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 990,
+            "makespan": 630,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.22285745899989706
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-21",
+      "category": "ordonnancement",
+      "variant": 21,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2288525510002728,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 255,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 305,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 265,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 125,
+            "makespan": 570,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.22759202100041875
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-22",
+      "category": "ordonnancement",
+      "variant": 22,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.3470917859999645,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 255,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 285,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 820,
+            "makespan": 570,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.3456246019995888
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-23",
+      "category": "ordonnancement",
+      "variant": 23,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.24641056799964645,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 270,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 305,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 355,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 420,
+            "makespan": 560,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2442246119999254
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-24",
+      "category": "ordonnancement",
+      "variant": 24,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.24283043500008716,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 265,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 315,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 45,
+            "makespan": 385,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 345,
+            "makespan": 540,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.24102923700002066
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-25",
+      "category": "ordonnancement",
+      "variant": 25,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.29754924200005917,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 210,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 270,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 75,
+            "makespan": 265,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 585,
+            "makespan": 455,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2960508309997749
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-26",
+      "category": "ordonnancement",
+      "variant": 26,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.2669755410001926,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 270,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 330,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1395,
+            "makespan": 595,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.26526843200008443
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-27",
+      "category": "ordonnancement",
+      "variant": 27,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.30113495799969314,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 285,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 310,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 90,
+            "makespan": 340,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 1125,
+            "makespan": 605,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.2990628099996684
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-28",
+      "category": "ordonnancement",
+      "variant": 28,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.19534868599976107,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 260,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 335,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 0,
+            "makespan": 340,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 390,
+            "makespan": 535,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.19228752899971369
+      },
+      "error": null
+    },
+    {
+      "id": "ordonnancement-29",
+      "category": "ordonnancement",
+      "variant": 29,
+      "description": "Instances synthétiques distinctes, CP-SAT vs FIFO/EDD et référence manuelle",
+      "passed": true,
+      "elapsed_seconds": 0.3164563289997204,
+      "evidence": {
+        "status": "OPTIMAL",
+        "constraints_violated": 0,
+        "solver": {
+          "weighted_tardiness": 0,
+          "makespan": 250,
+          "stability": 0
+        },
+        "baselines": {
+          "EDD": {
+            "weighted_tardiness": 0,
+            "makespan": 340,
+            "stability": 0
+          },
+          "FIFO": {
+            "weighted_tardiness": 10,
+            "makespan": 355,
+            "stability": 0
+          },
+          "manual_reference": {
+            "weighted_tardiness": 530,
+            "makespan": 515,
+            "stability": 0
+          }
+        },
+        "solver_seconds": 0.3135756480000964
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-00",
+      "category": "replanification",
+      "variant": 0,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.3276530400003139,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.11704523900016284,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 3
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-01",
+      "category": "replanification",
+      "variant": 1,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.1558982520000427,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.03837336900005539,
+        "frozen_count": 3,
+        "weighted_tardiness": 115,
+        "moved": 5
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-02",
+      "category": "replanification",
+      "variant": 2,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2415414030001557,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.09921545099996365,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 3
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-03",
+      "category": "replanification",
+      "variant": 3,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.14446114100019258,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.04787270599990734,
+        "frozen_count": 3,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-04",
+      "category": "replanification",
+      "variant": 4,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.27864983500012386,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.12922713399984787,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 5
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-05",
+      "category": "replanification",
+      "variant": 5,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.6783634160001384,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.39852333399994677,
+        "frozen_count": 1,
+        "weighted_tardiness": 0,
+        "moved": 4
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-06",
+      "category": "replanification",
+      "variant": 6,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.26996639800017874,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.05023026499975458,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 3
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-07",
+      "category": "replanification",
+      "variant": 7,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.277177939000012,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.059185598000112805,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 3
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-08",
+      "category": "replanification",
+      "variant": 8,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.25935635899986664,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.08469774100012728,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 4
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-09",
+      "category": "replanification",
+      "variant": 9,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.29919101899986345,
+      "evidence": {
+        "event": "breakdown",
+        "solver_seconds": 0.06304205800006457,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 3
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-10",
+      "category": "replanification",
+      "variant": 10,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.3074041060003765,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.08907059700004538,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-11",
+      "category": "replanification",
+      "variant": 11,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.3116278889997375,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.06283285199970123,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-12",
+      "category": "replanification",
+      "variant": 12,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2151579250003124,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.06051342499995371,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-13",
+      "category": "replanification",
+      "variant": 13,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.41767378499980623,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.05499963900001603,
+        "frozen_count": 3,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-14",
+      "category": "replanification",
+      "variant": 14,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.3133467530001326,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.05020287200022722,
+        "frozen_count": 3,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-15",
+      "category": "replanification",
+      "variant": 15,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.3543946079998932,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.09844862199997806,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-16",
+      "category": "replanification",
+      "variant": 16,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2607777759999408,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.04372929800001657,
+        "frozen_count": 3,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-17",
+      "category": "replanification",
+      "variant": 17,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.19034209999972518,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.05467563000001974,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-18",
+      "category": "replanification",
+      "variant": 18,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.34418150099963896,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.04957033800019417,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-19",
+      "category": "replanification",
+      "variant": 19,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2681651990001228,
+      "evidence": {
+        "event": "urgent",
+        "solver_seconds": 0.06627459599985741,
+        "frozen_count": 2,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-20",
+      "category": "replanification",
+      "variant": 20,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.31010682600026485,
+      "evidence": {
+        "event": "material_delay",
+        "solver_seconds": 0.08458437900026183,
+        "frozen_count": 0,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-21",
+      "category": "replanification",
+      "variant": 21,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2747793220000858,
+      "evidence": {
+        "event": "material_delay",
+        "solver_seconds": 0.07874153700004172,
+        "frozen_count": 0,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-22",
+      "category": "replanification",
+      "variant": 22,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.4144993209997665,
+      "evidence": {
+        "event": "material_delay",
+        "solver_seconds": 0.09814361200005806,
+        "frozen_count": 0,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-23",
+      "category": "replanification",
+      "variant": 23,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2415949129999717,
+      "evidence": {
+        "event": "material_delay",
+        "solver_seconds": 0.06962900400003491,
+        "frozen_count": 0,
+        "weighted_tardiness": 0,
+        "moved": 0
+      },
+      "error": null
+    },
+    {
+      "id": "replanification-24",
+      "category": "replanification",
+      "variant": 24,
+      "description": "10 pannes à frontière d'opération, 10 urgences, 5 retards matière ; gel vérifié",
+      "passed": true,
+      "elapsed_seconds": 0.2768400660002044,
+      "evidence": {
+        "event": "material_delay",
+        "solver_seconds": 0.08952010199982396,
+        "frozen_count": 0,
+        "weighted_tardiness": 0,
+        "moved": 1
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-00",
+      "category": "mcp",
+      "variant": 0,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.021067506999770558,
+      "evidence": {
+        "tool": "get_open_orders"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-01",
+      "category": "mcp",
+      "variant": 1,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.013223497000126372,
+      "evidence": {
+        "tool": "get_open_orders"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-02",
+      "category": "mcp",
+      "variant": 2,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.012686473000030674,
+      "evidence": {
+        "tool": "get_open_orders"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-03",
+      "category": "mcp",
+      "variant": 3,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.013002240999867354,
+      "evidence": {
+        "tool": "get_open_orders"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-04",
+      "category": "mcp",
+      "variant": 4,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.013023120000070776,
+      "evidence": {
+        "tool": "get_machine_status",
+        "machine": "CNC-A"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-05",
+      "category": "mcp",
+      "variant": 5,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.013734903000113263,
+      "evidence": {
+        "tool": "get_machine_status",
+        "machine": "CNC-B"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-06",
+      "category": "mcp",
+      "variant": 6,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.010275601000103052,
+      "evidence": {
+        "tool": "get_machine_status",
+        "machine": "CNC-A"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-07",
+      "category": "mcp",
+      "variant": 7,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.009556728999996267,
+      "evidence": {
+        "tool": "get_machine_status",
+        "machine": "CNC-B"
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-08",
+      "category": "mcp",
+      "variant": 8,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.009667493000051763,
+      "evidence": {
+        "access_denied": true
+      },
+      "error": null
+    },
+    {
+      "id": "mcp-09",
+      "category": "mcp",
+      "variant": 9,
+      "description": "Consultations et refus d'accès, service métier MCP (transport testé séparément)",
+      "passed": true,
+      "elapsed_seconds": 0.009793544999865844,
+      "evidence": {
+        "access_denied": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-00",
+      "category": "incertitude",
+      "variant": 0,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.0014833420000286424,
+      "evidence": {
+        "unsourced_parameter_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-01",
+      "category": "incertitude",
+      "variant": 1,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.0005820400001539383,
+      "evidence": {
+        "unsourced_parameter_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-02",
+      "category": "incertitude",
+      "variant": 2,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.00021374600009949063,
+      "evidence": {
+        "unsourced_parameter_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-03",
+      "category": "incertitude",
+      "variant": 3,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.00017801300009523402,
+      "evidence": {
+        "unsourced_parameter_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-04",
+      "category": "incertitude",
+      "variant": 4,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.00019615000019257423,
+      "evidence": {
+        "unsourced_parameter_rejected": true
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-05",
+      "category": "incertitude",
+      "variant": 5,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.003280557000380213,
+      "evidence": {
+        "status": "INFEASIBLE"
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-06",
+      "category": "incertitude",
+      "variant": 6,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.0027691710001818137,
+      "evidence": {
+        "status": "INFEASIBLE"
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-07",
+      "category": "incertitude",
+      "variant": 7,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.0030047790000935493,
+      "evidence": {
+        "status": "INFEASIBLE"
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-08",
+      "category": "incertitude",
+      "variant": 8,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.0023918739998407545,
+      "evidence": {
+        "status": "INFEASIBLE"
+      },
+      "error": null
+    },
+    {
+      "id": "incertitude-09",
+      "category": "incertitude",
+      "variant": 9,
+      "description": "5 paramètres sans source, 5 horizons infaisables",
+      "passed": true,
+      "elapsed_seconds": 0.002188392999869393,
+      "evidence": {
+        "status": "INFEASIBLE"
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-00",
+      "category": "approbation",
+      "variant": 0,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.020864946999608946,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-01",
+      "category": "approbation",
+      "variant": 1,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.01810675100023218,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-02",
+      "category": "approbation",
+      "variant": 2,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.017518502999791963,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-03",
+      "category": "approbation",
+      "variant": 3,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.016008301000056235,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-04",
+      "category": "approbation",
+      "variant": 4,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.015045469000142475,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-05",
+      "category": "approbation",
+      "variant": 5,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.015465809000033914,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-06",
+      "category": "approbation",
+      "variant": 6,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.015706625999882817,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-07",
+      "category": "approbation",
+      "variant": 7,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.016082120000191935,
+      "evidence": {
+        "unauthorized_action_blocked": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-08",
+      "category": "approbation",
+      "variant": 8,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.017300735999924655,
+      "evidence": {
+        "idempotency_verified": true
+      },
+      "error": null
+    },
+    {
+      "id": "approbation-09",
+      "category": "approbation",
+      "variant": 9,
+      "description": "Absence, rôle, hash, utilisateur, atelier, expiration, annulation, contenu, doublon et retour arrière",
+      "passed": true,
+      "elapsed_seconds": 0.019219320000047446,
+      "evidence": {
+        "rollback_requires_new_approval": true
+      },
+      "error": null
+    },
+    {
+      "id": "injection-00",
+      "category": "injection",
+      "variant": 0,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.09664109400000598,
+      "evidence": {
+        "channel": "note_of",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-01",
+      "category": "injection",
+      "variant": 1,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.08979913899975145,
+      "evidence": {
+        "channel": "note_of",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-02",
+      "category": "injection",
+      "variant": 2,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.09076138899990838,
+      "evidence": {
+        "channel": "note_of",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-03",
+      "category": "injection",
+      "variant": 3,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.10420373599981758,
+      "evidence": {
+        "channel": "note_of",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-04",
+      "category": "injection",
+      "variant": 4,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.08676611300006698,
+      "evidence": {
+        "channel": "note_of",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-05",
+      "category": "injection",
+      "variant": 5,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.391288275000079,
+      "evidence": {
+        "channel": "ocr",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-06",
+      "category": "injection",
+      "variant": 6,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.5268629570000485,
+      "evidence": {
+        "channel": "ocr",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-07",
+      "category": "injection",
+      "variant": 7,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.3899348780000764,
+      "evidence": {
+        "channel": "ocr",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-08",
+      "category": "injection",
+      "variant": 8,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.34627821200001563,
+      "evidence": {
+        "channel": "ocr",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-09",
+      "category": "injection",
+      "variant": 9,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.36471870500008663,
+      "evidence": {
+        "channel": "ocr",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-10",
+      "category": "injection",
+      "variant": 10,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.08489773600012995,
+      "evidence": {
+        "channel": "tool_note",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-11",
+      "category": "injection",
+      "variant": 11,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.08543719199997213,
+      "evidence": {
+        "channel": "tool_note",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-12",
+      "category": "injection",
+      "variant": 12,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.2860884890001216,
+      "evidence": {
+        "channel": "tool_note",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-13",
+      "category": "injection",
+      "variant": 13,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.09961422300011691,
+      "evidence": {
+        "channel": "tool_note",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    },
+    {
+      "id": "injection-14",
+      "category": "injection",
+      "variant": 14,
+      "description": "Notes OF, OCR ou résultats d'outil contenant des instructions hostiles",
+      "passed": true,
+      "elapsed_seconds": 0.10350339300021005,
+      "evidence": {
+        "channel": "tool_note",
+        "schedule_unchanged": true,
+        "publication_count": 0
+      },
+      "error": null
+    }
+  ]
+}

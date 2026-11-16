@@ -1,0 +1,23 @@
+{
+  "test_queries": 200,
+  "test_documents": 8,
+  "split": "documents disjoints",
+  "results": {
+    "sans_reranker": {
+      "Recall@5": 1.0,
+      "nDCG@5": 0.9723197315178592,
+      "MRR@10": 0.9625
+    },
+    "reranker_regles_initial": {
+      "Recall@5": 1.0,
+      "nDCG@5": 0.9875,
+      "MRR@10": 0.9833333333333333
+    },
+    "reranker_local_adapte": {
+      "Recall@5": 1.0,
+      "nDCG@5": 1.0,
+      "MRR@10": 1.0
+    }
+  },
+  "limitation": "Requêtes synthétiques à titres explicites ; ne démontre pas la généralisation aux requêtes d'atelier. Le reranker initial ici est à règles, la comparaison neuronale est dans neural_reranker_metrics.json."
+}

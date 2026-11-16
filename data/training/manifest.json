@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "seed": 2026,
+  "count": 1000,
+  "counts": {
+    "train": 600,
+    "validation": 200,
+    "test": 200
+  },
+  "documents": {
+    "train": [
+      "gel_tour_c",
+      "gel_cnc_a",
+      "operateur_cnc_b",
+      "publication_cnc_a",
+      "matiere_tour_c",
+      "publication_tour_c",
+      "confidentiel_atelier2_0",
+      "matiere_cnc_a",
+      "gamme_101",
+      "alarme_cnc_b",
+      "gamme_104",
+      "gamme_106",
+      "gamme_105",
+      "confidentiel_atelier2_1",
+      "gel_cnc_b",
+      "fiche_tour_c",
+      "erp_orders",
+      "fiche_tour_d",
+      "outillage_tour_c",
+      "fiche_cnc_b",
+      "gamme_103",
+      "gamme_109",
+      "operateur_cnc_a",
+      "outillage_cnc_b"
+    ],
+    "validation": [
+      "outillage_cnc_a",
+      "fiche_cnc_a",
+      "alarme_tour_d",
+      "alarme_tour_c",
+      "gamme_107",
+      "alarme_cnc_a",
+      "regles_reglage",
+      "matiere_tour_d"
+    ],
+    "test": [
+      "operateur_tour_c",
+      "matiere_cnc_b",
+      "gamme_102",
+      "confidentiel_atelier2_2",
+      "publication_cnc_b",
+      "operateur_tour_d",
+      "gamme_108",
+      "confidentiel_atelier2_3"
+    ]
+  },
+  "sha256": "1750f2d8abbcb0e7f6fa5e90fe54be89a51e1458725f367f0f152a8c10b9d1b9",
+  "validation": "Contrôles automatiques d'intégrité, séparation par document. Pas de validation par praticien. Questions synthétiques fondées sur les titres : benchmark limité et plus facile que des requêtes réelles."
+}

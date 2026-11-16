@@ -1,0 +1,369 @@
+{
+  "REF-101": {
+    "family": "ALU",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_101",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-101",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-101",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-102": {
+    "family": "ACIER",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": "OUTIL-UNIQUE",
+    "sources": {
+      "duration": {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_102",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-102",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-102",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-103": {
+    "family": "ALU",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_103",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-103",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-103",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-104": {
+    "family": "ACIER",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": "OUTIL-UNIQUE",
+    "sources": {
+      "duration": {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_104",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-104",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-104",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-105": {
+    "family": "ALU",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_105",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-105",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-105",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-106": {
+    "family": "ACIER",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": "OUTIL-UNIQUE",
+    "sources": {
+      "duration": {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_106",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-106",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-106",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-107": {
+    "family": "ALU",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_107",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-107",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-107",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-108": {
+    "family": "ACIER",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_108",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-108",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "erp_orders",
+        "page": 1,
+        "element_id": "OF-108",
+        "version": "1.0"
+      }
+    }
+  },
+  "REF-109": {
+    "family": "ALU",
+    "unit_minutes": 5,
+    "eligible": [
+      "CNC-A",
+      "CNC-B"
+    ],
+    "tool": null,
+    "sources": {
+      "duration": {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "eligible": {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "tool": {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "due": {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      },
+      "release": {
+        "document_id": "gamme_109",
+        "page": 1,
+        "element_id": "parametres",
+        "version": "1.0"
+      }
+    }
+  }
+}

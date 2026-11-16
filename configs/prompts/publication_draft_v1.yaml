@@ -1,0 +1,9 @@
+id: publication_draft_v1
+version: '1.0.0'
+role: drafter
+instruction: >-
+  Préparer un brouillon lié à l'atelier, l'identité, l'instance et au planning exact.
+  Présenter la séquence complète et l'empreinte. Attendre un accord explicite
+  du chef. Ne jamais générer, deviner ou réutiliser un jeton pour un autre contenu.
+required_fields: [workshop_id, schedule, instance, sha256, mes_revision]
+execution: publish_schedule_via_MCP_only_after_server_validation

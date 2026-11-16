@@ -1,0 +1,65 @@
+[
+  {
+    "run_id": "4b16ad18574c4be28d89508bc53ecdab",
+    "status": "FINISHED",
+    "metrics": {
+      "pretrained_MRR_at_10": 1.0,
+      "pretrained_nDCG_at_5": 1.0,
+      "pretrained_Recall_at_5": 1.0,
+      "elapsed_seconds": 288.6919785780001,
+      "adapted_nDCG_at_5": 1.0,
+      "adapted_MRR_at_10": 1.0,
+      "adapted_Recall_at_5": 1.0
+    },
+    "params": {
+      "prompts": "v1",
+      "data": "1.0.0",
+      "execution": "CPU local",
+      "application": "1.0.0"
+    }
+  },
+  {
+    "run_id": "0899ed08ce70449e9bc63a21616c0522",
+    "status": "FINISHED",
+    "metrics": {
+      "results_sans_reranker_MRR_at_10": 0.9625,
+      "results_reranker_regles_initial_Recall_at_5": 1.0,
+      "results_sans_reranker_Recall_at_5": 1.0,
+      "results_reranker_local_adapte_nDCG_at_5": 1.0,
+      "results_reranker_regles_initial_nDCG_at_5": 0.9875,
+      "results_reranker_regles_initial_MRR_at_10": 0.9833333333333333,
+      "results_reranker_local_adapte_MRR_at_10": 1.0,
+      "results_reranker_local_adapte_Recall_at_5": 1.0,
+      "results_sans_reranker_nDCG_at_5": 0.9723197315178592
+    },
+    "params": {
+      "prompts": "v1",
+      "data": "1.0.0",
+      "execution": "CPU local",
+      "application": "1.0.0"
+    }
+  },
+  {
+    "run_id": "a39d1febb64e4511aa94ab3b42288f19",
+    "status": "FINISHED",
+    "metrics": {
+      "executed": 150.0,
+      "latency_seconds_p95": 0.35928876869991183,
+      "solver_not_worse_than_EDD": 30.0,
+      "latency_seconds_median": 0.09028026399982991,
+      "solver_valid_schedules": 30.0,
+      "replanning_count": 25.0,
+      "failed": 0.0,
+      "solver_not_worse_than_FIFO": 30.0,
+      "solver_violations": 0.0,
+      "replanning_p95_seconds": 0.12679075499991083,
+      "passed": 150.0
+    },
+    "params": {
+      "prompts": "v1",
+      "data": "1.0.0",
+      "execution": "CPU local",
+      "application": "1.0.0"
+    }
+  }
+]

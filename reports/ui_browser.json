@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "viewport": [
+    1440,
+    1100
+  ],
+  "checks": [
+    "login",
+    "initial_schedule",
+    "gantt_rendered",
+    "no_streamlit_exception",
+    "document_query",
+    "source_displayed"
+  ],
+  "browser": "Chromium headless",
+  "screenshots": [
+    "interface_planning.png",
+    "interface_rag.png"
+  ]
+}

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+.runtime/
+work/
+models/*/
+!models/models.lock.json
+!models/reranker_local_v1.json
+reports/mlruns/
+*.log
+livrables/
+dist/

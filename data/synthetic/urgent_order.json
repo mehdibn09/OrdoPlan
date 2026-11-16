@@ -1,0 +1,49 @@
+{
+  "id": "OF-109",
+  "reference": "REF-109",
+  "family": "ALU",
+  "quantity": 12,
+  "unit_minutes": 5,
+  "due": 330,
+  "release": 150,
+  "priority": 3,
+  "eligible": [
+    "CNC-A",
+    "CNC-B"
+  ],
+  "tool": null,
+  "operator": null,
+  "note": "",
+  "sources": {
+    "duration": {
+      "document_id": "gamme_109",
+      "page": 1,
+      "element_id": "parametres",
+      "version": "1.0"
+    },
+    "eligible": {
+      "document_id": "gamme_109",
+      "page": 1,
+      "element_id": "parametres",
+      "version": "1.0"
+    },
+    "tool": {
+      "document_id": "gamme_109",
+      "page": 1,
+      "element_id": "parametres",
+      "version": "1.0"
+    },
+    "due": {
+      "document_id": "gamme_109",
+      "page": 1,
+      "element_id": "parametres",
+      "version": "1.0"
+    },
+    "release": {
+      "document_id": "gamme_109",
+      "page": 1,
+      "element_id": "parametres",
+      "version": "1.0"
+    }
+  }
+}

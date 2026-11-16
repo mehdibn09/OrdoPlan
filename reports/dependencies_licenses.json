@@ -1,0 +1,70 @@
+[
+  {
+    "name": "fastapi",
+    "version": "0.163.1",
+    "license": "MIT",
+    "home": null
+  },
+  {
+    "name": "streamlit",
+    "version": "1.67.0",
+    "license": "Apache-2.0",
+    "home": null
+  },
+  {
+    "name": "ortools",
+    "version": "9.15.6755",
+    "license": "Apache 2.0",
+    "home": "https://developers.google.com/optimization/"
+  },
+  {
+    "name": "mcp",
+    "version": "2.3.0",
+    "license": "MIT",
+    "home": null
+  },
+  {
+    "name": "langchain-core",
+    "version": "1.8.1",
+    "license": "MIT",
+    "home": null
+  },
+  {
+    "name": "langgraph",
+    "version": "1.2.22",
+    "license": "MIT",
+    "home": null
+  },
+  {
+    "name": "qdrant-client",
+    "version": "1.16.0",
+    "license": "Apache-2.0",
+    "home": null
+  },
+  {
+    "name": "pymupdf",
+    "version": "1.26.7",
+    "license": "Dual Licensed - GNU AFFERO GPL 3.0 or Artifex Commercial License",
+    "home": null,
+    "native_test_version": "2.1",
+    "note": "Version du socle de distribution, choisie sans moteur de layout optionnel ; tests en conteneur distincts."
+  },
+  {
+    "name": "pytesseract",
+    "version": "0.3.13",
+    "license": "Apache License 2.0",
+    "home": "https://github.com/madmaze/pytesseract"
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "license": "Apache-2.0 OR BSD-3-Clause",
+    "home": null
+  },
+  {
+    "name": "python-telegram-bot",
+    "version": "22.5",
+    "license": "LGPL-3.0-only",
+    "home": null
+  }
+]

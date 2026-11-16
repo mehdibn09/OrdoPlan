@@ -1,0 +1,20 @@
+application: OrdoPlan
+version: 1.0.0
+day_start: '08:00'
+units: minutes
+budgets:
+  mcp_calls: 3
+  model_calls: 6
+  automatic_seconds: 60
+  solver_seconds: 20
+  upload_bytes: 8388608
+  image_pixels: 16000000
+  generated_tokens: 96
+  context_tokens: 4096
+storage:
+  prototype: SQLite chiffré AES/Fernet et checkpoints AES
+  vector: Qdrant local ou serveur
+solver:
+  workers: 1
+  seed: 42
+  objective: [weighted_tardiness, stability, makespan]
