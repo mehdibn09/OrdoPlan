@@ -68,23 +68,6 @@ Le projet ne pilote aucune machine et ne prend aucune décision de sécurité in
 | RAG | Recherche de passages documentaires utilisés pour étayer une réponse |
 | MCP | Protocole permettant à l’agent d’appeler des outils métier définis et contrôlés |
 
-## Équipe et répartition proposée
-
-Le projet est présenté en binôme. **Oussama Kamil** est identifié par son profil GitHub **[@oussamak05](https://github.com/oussamak05)**. Le nom et le profil GitHub de l’autre membre restent à renseigner avant publication officielle du dépôt.
-
-**Statut de cette section : proposition d’organisation à confirmer par les deux membres.** Elle décrit des responsabilités de suivi, d’approfondissement et de présentation ; elle ne constitue pas une attribution vérifiée des développements déjà réalisés. Les contributions effectives doivent être attestées par les commits, revues et livrables.
-
-| Lot | Responsable proposé | Travaux et livrables attendus | Revue croisée |
-|---|---|---|---|
-| Cadrage et besoins métier | Membre porteur du projet | Périmètre, hypothèses d’atelier, cas d’usage et critères d’acceptation | Oussama Kamil |
-| Corpus et ingestion documentaire | **Oussama Kamil — @oussamak05** | Organisation des PDF, extraction, OCR, métadonnées et traçabilité des sources | Membre porteur |
-| Recherche documentaire et multimodalité | **Oussama Kamil — @oussamak05** | Index Qdrant, recherche, citations, analyse des images et contrôle des incertitudes | Membre porteur |
-| Reranking et évaluation documentaire | **Oussama Kamil — @oussamak05** | Vérification des triplets, protocole comparatif, interprétation de Recall, nDCG et MRR | Membre porteur |
-| Solveur et replanification | Membre porteur du projet | Contraintes CP-SAT, contrôleur indépendant, scénarios de panne et d’urgence | Oussama Kamil |
-| API, workflow et outils MCP | Membre porteur du projet | Coordination, brouillons, intégration ERP/MES et publication approuvée | Oussama Kamil |
-| Interface et expérience de démonstration | Binôme | Gantt, parcours documentaire, messages de clarification et exports | Revue commune |
-| Sécurité, tests et déploiement | Binôme | Permissions, essais de non-régression, Docker et guide d’exploitation | Validation commune |
-| Rapport et soutenance | Binôme | Répartition des explications, preuves, limites et répétition de la démonstration | Validation commune |
 
 ### Organisation de travail recommandée
 
